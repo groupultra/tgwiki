@@ -169,12 +169,12 @@ const VariableProximity = forwardRef<HTMLSpanElement, VariableProximityProps>(
         style={{ display: "inline", ...style }}
         {...restProps}
       >
-        {words.map((word, wordIndex) => (
+        {words.map((word: any, wordIndex: number) => (
           <span
             key={wordIndex}
             style={{ display: "inline-block", whiteSpace: "nowrap" }}
           >
-            {word.split("").map((letter) => {
+            {word.split("").map((letter: any) => {
               const currentLetterIndex = letterIndex++;
               return (
                 <motion.span
