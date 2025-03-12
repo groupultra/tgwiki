@@ -1,0 +1,14 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "知识库",
+  "title": "wikiTg",
+  "content": "WikiTG 高质量的 Telegram 知识库，助力用户更科学、更高效地使用 Telegram。",
+  "subtitle": "WikiTG 高质量的 Telegram 知识库",
+  "description": "助力用户更科学、更高效地使用 Telegram",
+  "start": "立即开始",
+  "nav": {
+    "start": "快速开始",
+    "use": "常用功能",
+    "FAQ": "常见问题"
+  }
+}

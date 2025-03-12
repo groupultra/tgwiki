@@ -1,0 +1,11 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "Knowledge",
+  "title": "wikiTg",
+  "content": "content",
+  "nav": {
+    "start": "Quick Start",
+    "use": "Commonly Used Functions",
+    "FAQ": "FAQ"
+  }
+}

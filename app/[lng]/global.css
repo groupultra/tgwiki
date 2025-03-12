@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --text-title: #140626;
+}
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  --text-title: #140626;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+body {
+  font-family: var(--font-inter), "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.fall-animate {
+  animation: fall 1s ease-in-out both;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fall-animate-1 {
+  animation: fall 0.5s linear 0s both;
+}
+.fall-animate-2 {
+  animation: fall 0.5s linear 0.45s both;
+}
+.fall-animate-3 {
+  animation: fall 0.5s linear 0.95s both;
+}
+.fall-animate-4 {
+  animation: fall 0.5s linear 1.45s both;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animated-bg {
+  background: linear-gradient(
+    135deg,
+    rgb(216, 178, 252),
+    #fff,
+    rgb(187, 213, 252)
+  );
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s ease infinite;
+}
