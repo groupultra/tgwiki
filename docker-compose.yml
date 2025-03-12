@@ -1,0 +1,10 @@
+# version: "3"
+services:
+  tgwiki:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tgwiki
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
