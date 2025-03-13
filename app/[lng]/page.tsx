@@ -1,10 +1,13 @@
-import { CircleHelp, Rocket, Star } from "lucide-react";
+import { ArrowRight, CircleHelp, Rocket, Sparkles, Star } from "lucide-react";
+
 import { useTranslation } from "../i18n";
 import { fallbackLng, languages } from "../i18n/settings";
 import HoverMe from "./components/animation/HoverMe";
-
-import VariableProximity from "./components/VariableProximity";
+import SpotlightCard from "./components/animation/SpotlightCard";
+import QuickBlock from "./components/QuickBlock";
 import { Header } from "./components/ui/Header";
+import VariableProximity from "./components/VariableProximity";
+
 export default async function Page({
   params,
 }: {
@@ -45,6 +48,44 @@ export default async function Page({
               {t("start")}
             </button>
           </div>
+        </section>
+
+        <section className="w-full py-20">
+          <h2 className="customers_title">{t("quickTitle")}</h2>
+          <QuickBlock t={t} />
+        </section>
+        <section className="w-full py-20">
+          <h2 className="customers_title">{t("CommonlyTitle")}</h2>
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-50 sm:px-30">
+            {t("function.content", { returnObjects: true })?.map((val: any) => {
+              return (
+                <SpotlightCard
+                  className="relative bg-[#212121] border border-[#222] cursor-pointer"
+                  spotlightColor="rgba(255, 255, 255, 0.3)"
+                >
+                  <div
+                    className="flex justify-center items-center"
+                    key={val.key}
+                  >
+                    <div className="text-white flex flex-col gap-2 flex-1">
+                      <div className="pb-3">
+                        <Sparkles fill="#fff" size={30} />
+                      </div>
+                      <h3 className="font-bold text-2xl">{val.category}</h3>
+                      <h4 className="opacity-75">{val.items}</h4>
+                    </div>
+                    <span className="text-white opacity-75">
+                      <ArrowRight />
+                    </span>
+                  </div>
+                </SpotlightCard>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className="w-full">
+          <h2 className="customers_title">{t("FAQ")}</h2>
         </section>
       </main>
       {/* <Footer lng={lng} /> */}

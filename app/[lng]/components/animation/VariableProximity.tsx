@@ -172,7 +172,7 @@ const VariableProximity = forwardRef<HTMLSpanElement, VariableProximityProps>(
         {words.map((word: any, wordIndex: number) => (
           <span
             key={wordIndex}
-            style={{ display: "inline-block", whiteSpace: "nowrap" }}
+            style={{ display: "inline-block", whiteSpace: "wrap" }}
           >
             {word.split("").map((letter: any) => {
               const currentLetterIndex = letterIndex++;
