@@ -60,6 +60,7 @@ const QuickBlock = ({ t }: { t: any }) => {
             whileInView="onscreen"
             viewport={{ amount: 0.8 }}
             variants={cardVariants}
+            key={index}
           >
             <div
               key={index}

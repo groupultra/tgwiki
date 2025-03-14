@@ -1,0 +1,388 @@
+{
+  "content": [
+    {
+      "title": "一般の質問",
+      "key": "general-questions",
+      "children": [
+        {
+          "key": "q-what-is-telegram-what-do-i-do-here",
+          "title": "Telegramとは何ですか？ここで何をすればいいのですか？"
+        },
+        {
+          "key": "q-who-is-telegram-for",
+          "title": "これは誰のためのものですか？"
+        },
+        {
+          "key": "q-how-is-telegram-different-from-whatsapp",
+          "title": "WhatsAppとどう違うのですか？"
+        },
+        {
+          "key": "q-how-old-is-telegram",
+          "title": "Telegramはどのくらいの歴史がありますか？"
+        },
+        {
+          "key": "q-which-devices-can-i-use",
+          "title": "自分のデバイスで利用可能ですか？"
+        },
+        {
+          "key": "q-who-are-the-people-behind-telegram",
+          "title": "Telegramの背後にいるのは誰ですか？"
+        },
+        {
+          "key": "q-where-is-telegram-based",
+          "title": "Telegramの拠点はどこですか？"
+        },
+        {
+          "key": "q-how-are-you-going-to-make-money-out-of-this",
+          "title": "どのように収益を上げているのですか？"
+        },
+        {
+          "key": "q-what-are-your-thoughts-on-internet-privacy",
+          "title": "インターネットのプライバシーについてどう考えていますか？"
+        },
+        {
+          "key": "q-what-about-gdpr",
+          "title": "GDPRはどうなっていますか？"
+        },
+        {
+          "key": "q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down",
+          "title": "削除依頼に対応していますか？"
+        },
+        {
+          "key": "q-do-you-process-data-requests",
+          "title": "データリクエストに対応していますか？"
+        }
+      ]
+    },
+    {
+      "title": "Telegram 基本操作",
+      "key": "telegram-basics",
+      "children": [
+        {
+          "key": "q-who-can-i-write-to",
+          "title": "誰にメッセージを送ることができますか？"
+        },
+        {
+          "key": "q-who-can-contact-me",
+          "title": "誰が私にメッセージを送ることができますか？"
+        },
+        {
+          "key": "q-does-telegram-send-verification-codes-for-other-apps",
+          "title": "Telegramは他のアプリ用の認証コードを送信しますか？"
+        },
+        {
+          "key": "q-how-do-i-know-who-in-my-contacts-has-telegram",
+          "title": "Telegramを利用しているのは誰ですか？"
+        },
+        {
+          "key": "q-how-do-i-invite-my-friends",
+          "title": "友達を招待する"
+        },
+        {
+          "key": "q-what-do-the-check-marks-mean",
+          "title": "Telegramのチェックマークは何を意味しますか？"
+        },
+        {
+          "key": "q-can-i-hide-my-last-seen-time",
+          "title": "「最終オンライン時間」を隠すことはできますか？"
+        },
+        {
+          "key": "q-who-can-see-me-39online-39",
+          "title": "誰が私のオンライン状態を確認できますか？"
+        },
+        {
+          "key": "q-can-i-delete-my-messages",
+          "title": "メッセージを削除できますか？"
+        },
+        {
+          "key": "q-can-i-make-calls-via-telegram",
+          "title": "音声、ビデオ、グループ通話"
+        },
+        {
+          "key": "q-how-can-i-use-emoticons",
+          "title": "絵文字の使用"
+        }
+      ]
+    },
+    {
+      "title": "グループとチャンネル",
+      "key": "groups-and-channels",
+      "children": [
+        {
+          "key": "q-what-makes-telegram-groups-cool",
+          "title": "Telegramグループの魅力は何ですか？"
+        },
+        {
+          "key": "q-what-39s-the-difference-between-groups-and-channels",
+          "title": "チャンネルとグループはどのように異なりますか？"
+        },
+        {
+          "key": "q-how-do-i-create-a-group",
+          "title": "グループの作成"
+        },
+        {
+          "key": "q-how-do-i-add-more-members-what-39s-an-invite-link",
+          "title": "メンバーの追加と招待リンクの利用"
+        }
+      ]
+    },
+    {
+      "title": "ユーザー名と t.me",
+      "key": "usernames-and-t-me",
+      "children": [
+        {
+          "key": "q-what-are-usernames-how-do-i-get-one",
+          "title": "ユーザー名とは何ですか？どうやって取得しますか？"
+        },
+        {
+          "key": "q-what-are-collectible-usernames-how-are-they-different-from-bas",
+          "title": "コレクティブルユーザー名とは何ですか？基本のユーザー名とどう違うのですか？"
+        },
+        {
+          "key": "q-how-does-t-me-work",
+          "title": "t.meはどのように機能しますか？"
+        },
+        {
+          "key": "q-what-can-i-use-as-my-username",
+          "title": "どのようなユーザー名を使用できますか？"
+        },
+        {
+          "key": "q-do-i-need-a-username",
+          "title": "ユーザー名は必要ですか？"
+        },
+        {
+          "key": "q-if-someone-finds-me-by-username-messages-and-i-reply-will-they",
+          "title": "自分の電話番号は知られますか？"
+        },
+        {
+          "key": "q-how-do-i-delete-my-username",
+          "title": "ユーザー名を削除するにはどうすればよいですか？"
+        },
+        {
+          "key": "q-what-do-i-do-if-my-username-is-taken",
+          "title": "ユーザー名が既に使用されている場合はどうしますか？"
+        },
+        {
+          "key": "q-what-if-someone-is-pretending-to-be-me",
+          "title": "誰かが私になりすましている場合はどうしますか？"
+        }
+      ]
+    },
+    {
+      "title": "セキュリティ",
+      "key": "security",
+      "children": [
+        {
+          "key": "q-how-secure-is-telegram",
+          "title": "Telegramはどれほど安全ですか？"
+        },
+        {
+          "key": "q-so-how-do-you-encrypt-data",
+          "title": "データはどのように暗号化されますか？"
+        },
+        {
+          "key": "q-why-should-i-trust-you",
+          "title": "なぜあなたを信頼すべきですか？"
+        },
+        {
+          "key": "q-do-i-need-to-trust-telegram-for-this-to-be-secure",
+          "title": "安全にするためにTelegramを信頼する必要がありますか？"
+        },
+        {
+          "key": "q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes",
+          "title": "ハッカーの友人が疑う場合はどうしますか？"
+        },
+        {
+          "key": "q-can-telegram-protect-me-against-everything",
+          "title": "Telegramはすべての脅威から守ってくれますか？"
+        },
+        {
+          "key": "q-how-does-2-step-verification-work",
+          "title": "2段階認証はどのように機能しますか？"
+        }
+      ]
+    },
+    {
+      "title": "シークレットチャット",
+      "key": "secret-chats",
+      "children": [
+        {
+          "key": "q-how-are-secret-chats-different",
+          "title": "「シークレットチャット」とは何ですか？"
+        },
+        {
+          "key": "q-how-do-i-start-a-secret-chat",
+          "title": "シークレットチャットの開始"
+        },
+        {
+          "key": "q-how-do-self-destructing-messages-work",
+          "title": "自動削除タイマーの使用"
+        },
+        {
+          "key": "q-can-i-be-certain-that-my-conversation-partner-doesn-39t-take-a",
+          "title": "スクリーンショット通知"
+        },
+        {
+          "key": "q-what-is-this-39encryption-key-39-thing",
+          "title": "暗号化キーの画像"
+        },
+        {
+          "key": "q-why-not-just-make-all-chats-39secret-39",
+          "title": "なぜすべてのチャットをシークレットにしないのですか？"
+        }
+      ]
+    },
+    {
+      "title": "あなたのアカウント",
+      "key": "your-account",
+      "children": [
+        {
+          "key": "q-who-can-see-my-phone-number",
+          "title": "誰が私の電話番号を見ることができますか？"
+        },
+        {
+          "key": "q-i-have-a-new-phone-number-what-do-i-do",
+          "title": "新しい電話番号に変えたらどうすればよいですか？"
+        },
+        {
+          "key": "q-how-do-i-log-out",
+          "title": "Telegramからログアウトする"
+        },
+        {
+          "key": "q-how-do-i-change-my-phone-number",
+          "title": "電話番号を変更する"
+        },
+        {
+          "key": "q-how-do-i-delete-my-account",
+          "title": "Telegramアカウントを削除する"
+        },
+        {
+          "key": "q-how-does-account-self-destruction-work",
+          "title": "アカウント自動削除はどのように機能しますか？"
+        },
+        {
+          "key": "q-my-phone-was-stolen-what-do-i-do",
+          "title": "電話が盗まれた場合、どうすればよいですか？"
+        }
+      ]
+    },
+    {
+      "title": "ボット",
+      "key": "bots",
+      "children": [
+        {
+          "key": "q-how-do-i-create-a-bot",
+          "title": "ボットを作成するにはどうすればよいですか？"
+        },
+        {
+          "key": "q-a-bot-is-sending-me-messages-how-do-i-make-it-stop",
+          "title": "ボットをどうやって除去しますか？"
+        },
+        {
+          "key": "q-are-bots-safe",
+          "title": "ボットは安全ですか？"
+        },
+        {
+          "key": "q-where-can-i-find-more-bots",
+          "title": "他のボットはどこで入手できますか？"
+        }
+      ]
+    },
+    {
+      "title": "より深い質問",
+      "key": "deeper-questions",
+      "children": [
+        {
+          "key": "q-can-i-get-telegram-39s-server-side-code",
+          "title": "Telegramのサーバーサイドコードを入手できますか？"
+        },
+        {
+          "key": "q-can-i-run-telegram-using-my-own-server",
+          "title": "自分のサーバーを使用できますか？"
+        },
+        {
+          "key": "q-can-i-use-the-telegram-api",
+          "title": "Telegram APIを使用できますか？"
+        },
+        {
+          "key": "q-do-you-have-a-privacy-policy",
+          "title": "プライバシーポリシーはありますか？"
+        },
+        {
+          "key": "q-what-does-the-ios-privacy-sheet-mean",
+          "title": "iOSのプライバシーシートは何を意味しますか？"
+        },
+        {
+          "key": "q-why-do-you-have-two-apps-in-the-mac-app-store",
+          "title": "なぜMac App Storeに2つのアプリがあるのですか？"
+        },
+        {
+          "key": "q-can-i-translate-telegram",
+          "title": "Telegramを翻訳できますか？"
+        },
+        {
+          "key": "q-can-i-help",
+          "title": "手伝えますか？"
+        }
+      ]
+    },
+    {
+      "title": "トラブルシューティング",
+      "key": "troubleshooting",
+      "children": [
+        {
+          "key": "login-and-sms",
+          "title": "SMS、ログイン、登録"
+        },
+        {
+          "key": "getting-a-code-via-a-phone-call",
+          "title": "電話でログインコードを取得する"
+        },
+        {
+          "key": "getting-a-code-via-telegram",
+          "title": "Telegramでコードを取得する"
+        },
+        {
+          "key": "notification-problems",
+          "title": "通知の問題"
+        },
+        {
+          "key": "problems-with-contacts",
+          "title": "連絡先の問題"
+        },
+        {
+          "key": "deleting-contacts-on-android",
+          "title": "Androidで連絡先を削除する"
+        },
+        {
+          "key": "where-did-my-secret-chat-messages-go",
+          "title": "シークレットチャット"
+        },
+        {
+          "key": "can-39t-send-messages-to-non-contacts",
+          "title": "連絡先以外にメッセージを送れない"
+        },
+        {
+          "key": "telegram-uses-the-camera-or-microphone-in-the-background",
+          "title": "Telegramがバックグラウンドでカメラやマイクを使用する"
+        }
+      ]
+    },
+    {
+      "title": "Telegramサポートに連絡",
+      "key": "telegram-support"
+    },
+    {
+      "title": "Twitterでフォロー",
+      "key": "twitter"
+    },
+    {
+      "title": "Facebook",
+      "key": "facebook-or-other-platforms"
+    },
+    {
+      "title": "上級 FAQ",
+      "key": "https://core.telegram.org/techfaq"
+    }
+  ]
+}

@@ -1,11 +1,97 @@
 {
   "Telegram": "Telegram",
-  "knowledgeBase": "Knowledge",
+  "knowledgeBase": "Knowledge Base",
   "title": "wikiTg",
-  "content": "content",
+  "content": "WikiTG is a high-quality Telegram knowledge base that helps users use Telegram more scientifically and efficiently.",
+  "subtitle": "WikiTg High-Quality Telegram Knowledge Base",
+  "description": "Helps users use Telegram more scientifically and efficiently",
+  "start": "Get Started Now",
   "nav": {
     "start": "Quick Start",
-    "use": "Commonly Used Functions",
+    "use": "Common Features",
     "FAQ": "FAQ"
+  },
+  "quickTitle": "Quick Start",
+  "CommonlyTitle": "Common Features",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "Document Guide",
+      "description": "Instructions and reading tips for using WikiTG"
+    },
+    "term_explanation": {
+      "title": "Term Explanation",
+      "description": "Introduction of common terms used in TG"
+    },
+    "chinese_language_pack": {
+      "title": "Chinese Language Pack",
+      "description": "Install the Chinese language pack to use the localized version of TG"
+    },
+    "privacy_settings": {
+      "title": "Privacy Settings",
+      "description": "Telegram privacy permissions and policies"
+    },
+    "cache_and_download": {
+      "title": "Cache and Download",
+      "description": "Clear Telegram cache and modify automatic download settings"
+    },
+    "dc_explanation": {
+      "title": "DC Explanation",
+      "description": "Introduction of the 5 Telegram DCs"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "Message Format",
+        "key": "message_format",
+        "items": "Telegram message subtext format and some quoting features"
+      },
+      {
+        "key": "image_layout",
+        "category": "Image Layout",
+        "items": "Add text description when sending images, send original images, reorder images"
+      },
+      {
+        "key": "built_in_search",
+        "category": "Built-in Search",
+        "items": "Telegram search tips, find chats and messages using built-in search"
+      },
+      {
+        "key": "create_stickers",
+        "category": "Create Stickers",
+        "items": "Create your own sticker pack, shareable via link"
+      },
+      {
+        "key": "create_bot",
+        "category": "Create Bot",
+        "items": "Write your own bot according to the Bot API"
+      },
+      {
+        "key": "telegraph",
+        "category": "Telegraph",
+        "items": "Quickly publish and share your articles via Telegram"
+      },
+      {
+        "key": "private_chat_bot",
+        "category": "Private Chat Bot Setup",
+        "items": "Set up a private chat bot to facilitate private conversations for users with mutual restrictions"
+      },
+      {
+        "key": "premium",
+        "category": "Premium",
+        "items": "Introduction and pricing for Telegram Premium exclusive features"
+      },
+      {
+        "key": "channel_group_boost",
+        "category": "Channel/Group Boost",
+        "items": "Help channels/groups unlock more features through boosts"
+      },
+      {
+        "key": "shortcuts",
+        "category": "Shortcuts",
+        "items": "Common shortcuts for Telegram Desktop"
+      }
+    ]
   }
 }

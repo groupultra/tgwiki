@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark;
+  themes: light --default;
 }
 @plugin "daisyui/theme" {
   name: "light";
@@ -8,12 +8,7 @@
   --text-title: #140626;
   --text-gradient: linear-gradient(180deg, #555555, #000000);
 }
-@plugin "daisyui/theme" {
-  name: "dark";
-  default: false;
-  --text-title: #140626;
-  --text-gradient: linear-gradient(180deg, #999, #fff);
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 html,
 body,

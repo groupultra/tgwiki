@@ -1,0 +1,97 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "Basis Pengetahuan",
+  "title": "wikiTg",
+  "content": "WikiTG adalah basis pengetahuan Telegram berkualitas tinggi, yang membantu pengguna menggunakan Telegram dengan lebih ilmiah dan efisien.",
+  "subtitle": "Basis Pengetahuan Telegram Berkualitas Tinggi WikiTG",
+  "description": "Membantu pengguna menggunakan Telegram dengan lebih ilmiah dan efisien",
+  "start": "Mulai Sekarang",
+  "nav": {
+    "start": "Mulai Cepat",
+    "use": "Fitur Umum",
+    "FAQ": "Pertanyaan Umum"
+  },
+  "quickTitle": "Panduan Cepat",
+  "CommonlyTitle": "Fitur Umum",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "Panduan Dokumen",
+      "description": "Instruksi penggunaan WikiTG dan petunjuk membaca"
+    },
+    "term_explanation": {
+      "title": "Penjelasan Istilah",
+      "description": "Pengenalan istilah umum yang digunakan di TG"
+    },
+    "chinese_language_pack": {
+      "title": "Paket Bahasa Cina",
+      "description": "Pasang paket bahasa Cina, gunakan TG versi terjemahan"
+    },
+    "privacy_settings": {
+      "title": "Pengaturan Privasi",
+      "description": "Izin dan aturan privasi Telegram"
+    },
+    "cache_and_download": {
+      "title": "Cache dan Unduhan",
+      "description": "Bersihkan cache Telegram, ubah pengaturan unduhan otomatis"
+    },
+    "dc_explanation": {
+      "title": "Penjelasan DC",
+      "description": "Penjelasan tentang 5 DC Telegram"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "Format Pesan",
+        "key": "message_format",
+        "items": "Format teks pesan salinan Telegram, serta beberapa fungsi kutipan"
+      },
+      {
+        "category": "Tata Letak Gambar",
+        "key": "image_layout",
+        "items": "Menambahkan keterangan teks saat mengirim gambar, mengirim gambar asli, mengurutkan ulang gambar"
+      },
+      {
+        "category": "Pencarian Bawaan",
+        "key": "built_in_search",
+        "items": "Trik pencarian Telegram, mencari percakapan dan pesan melalui pencarian bawaan"
+      },
+      {
+        "category": "Buat Stiker",
+        "key": "create_stickers",
+        "items": "Buat paket stiker sendiri, dapat dibagikan melalui tautan"
+      },
+      {
+        "category": "Buat Bot",
+        "key": "create_bot",
+        "items": "Tulis bot sendiri sesuai dengan Bot API"
+      },
+      {
+        "category": "Telegraph",
+        "key": "telegraph",
+        "items": "Publikasikan dan bagikan artikel dengan cepat melalui Telegram"
+      },
+      {
+        "category": "Pemasangan Bot Obrolan Pribadi",
+        "key": "private_chat_bot",
+        "items": "Membangun bot obrolan pribadi untuk memudahkan obrolan antar pengguna yang dibatasi secara dua arah"
+      },
+      {
+        "category": "Premium",
+        "key": "premium",
+        "items": "Fitur khusus anggota premium Telegram serta informasi harga"
+      },
+      {
+        "category": "Dukungan Saluran/Grup",
+        "key": "channel_group_boost",
+        "items": "Membantu saluran/grup mengaktifkan lebih banyak fitur melalui dukungan"
+      },
+      {
+        "category": "Pintasan",
+        "key": "shortcuts",
+        "items": "Pintasan umum pada Telegram Desktop"
+      }
+    ]
+  }
+}

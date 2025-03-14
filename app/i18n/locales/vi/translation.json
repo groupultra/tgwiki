@@ -1,0 +1,97 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "Cơ sở tri thức",
+  "title": "wikiTg",
+  "content": "WikiTG là cơ sở tri thức Telegram chất lượng cao, giúp người dùng sử dụng Telegram một cách khoa học và hiệu quả hơn.",
+  "subtitle": "Cơ sở tri thức Telegram chất lượng cao WikiTG",
+  "description": "Giúp người dùng sử dụng Telegram một cách khoa học và hiệu quả hơn",
+  "start": "Bắt đầu ngay",
+  "nav": {
+    "start": "Bắt đầu nhanh",
+    "use": "Chức năng thường dùng",
+    "FAQ": "Câu hỏi thường gặp"
+  },
+  "quickTitle": "Hướng dẫn nhanh",
+  "CommonlyTitle": "Chức năng thường dùng",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "Hướng dẫn tài liệu",
+      "description": "Hướng dẫn sử dụng WikiTG và mẹo đọc tài liệu"
+    },
+    "term_explanation": {
+      "title": "Giải thích thuật ngữ",
+      "description": "Giới thiệu các thuật ngữ thường dùng trong TG"
+    },
+    "chinese_language_pack": {
+      "title": "Gói ngôn ngữ Trung",
+      "description": "Cài đặt gói ngôn ngữ Trung, sử dụng TG phiên bản dịch tiếng Trung"
+    },
+    "privacy_settings": {
+      "title": "Cài đặt riêng tư",
+      "description": "Quyền riêng tư và quy định của Telegram"
+    },
+    "cache_and_download": {
+      "title": "Bộ nhớ đệm và tải xuống",
+      "description": "Xóa bộ nhớ đệm của Telegram, thay đổi cài đặt tải xuống tự động"
+    },
+    "dc_explanation": {
+      "title": "Giải thích DC",
+      "description": "Giới thiệu về 5 DC của Telegram"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "Định dạng tin nhắn",
+        "key": "message_format",
+        "items": "Định dạng văn bản phụ của tin nhắn Telegram, cũng như một số chức năng trích dẫn"
+      },
+      {
+        "category": "Bố cục hình ảnh",
+        "key": "image_layout",
+        "items": "Thêm mô tả văn bản khi gửi hình ảnh, gửi ảnh gốc, sắp xếp lại hình ảnh"
+      },
+      {
+        "category": "Tìm kiếm tích hợp",
+        "key": "built_in_search",
+        "items": "Mẹo tìm kiếm Telegram, tìm cuộc trò chuyện và tin nhắn thông qua tìm kiếm tích hợp"
+      },
+      {
+        "category": "Tạo nhãn dán",
+        "key": "create_stickers",
+        "items": "Tạo gói nhãn dán riêng, có thể chia sẻ qua liên kết"
+      },
+      {
+        "category": "Tạo bot",
+        "key": "create_bot",
+        "items": "Viết bot của riêng bạn theo Bot API"
+      },
+      {
+        "category": "Telegraph",
+        "key": "telegraph",
+        "items": "Đăng bài và chia sẻ bài viết nhanh chóng qua Telegram"
+      },
+      {
+        "category": "Xây dựng bot trò chuyện riêng",
+        "key": "private_chat_bot",
+        "items": "Xây dựng bot trò chuyện riêng, tiện lợi cho người dùng bị hạn chế hai chiều để trò chuyện riêng"
+      },
+      {
+        "category": "Premium",
+        "key": "premium",
+        "items": "Giới thiệu chức năng dành riêng cho thành viên Premium Telegram và giá cả"
+      },
+      {
+        "category": "Tăng cường kênh/nhóm",
+        "key": "channel_group_boost",
+        "items": "Giúp kênh/nhóm mở khóa thêm nhiều chức năng thông qua tăng cường"
+      },
+      {
+        "category": "Phím tắt",
+        "key": "shortcuts",
+        "items": "Các phím tắt thông dụng trên Telegram Desktop"
+      }
+    ]
+  }
+}

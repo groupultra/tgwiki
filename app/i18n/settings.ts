@@ -1,5 +1,13 @@
-export const fallbackLng = "zh";
-export const languages = [fallbackLng, "en"];
+export const fallbackLng = "en";
+export const languages = [fallbackLng, "zh-TW", "ja", "hi", "id", "vi"];
+export const languagesText = [
+  "English",
+  "繁體中文",
+  "日本語",
+  "हिन्दी",
+  "Bahasa Indonesia",
+  "Tiếng Việt",
+];
 export const defaultNS = "translation";
 export const cookieName = "i18next";
 

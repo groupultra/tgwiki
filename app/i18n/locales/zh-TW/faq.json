@@ -1,0 +1,388 @@
+{
+  "content": [
+    {
+      "title": "一般問題",
+      "key": "general-questions",
+      "children": [
+        {
+          "key": "q-what-is-telegram-what-do-i-do-here",
+          "title": "什麼是 Telegram？我該在這裡做什麼？"
+        },
+        {
+          "key": "q-who-is-telegram-for",
+          "title": "適合誰？"
+        },
+        {
+          "key": "q-how-is-telegram-different-from-whatsapp",
+          "title": "它與 WhatsApp 有何不同？"
+        },
+        {
+          "key": "q-how-old-is-telegram",
+          "title": "Telegram 創立多久了？"
+        },
+        {
+          "key": "q-which-devices-can-i-use",
+          "title": "我的裝置可以使用嗎？"
+        },
+        {
+          "key": "q-who-are-the-people-behind-telegram",
+          "title": "Telegram 的背後是誰？"
+        },
+        {
+          "key": "q-where-is-telegram-based",
+          "title": "Telegram 的基地在哪裡？"
+        },
+        {
+          "key": "q-how-are-you-going-to-make-money-out-of-this",
+          "title": "你如何賺錢？"
+        },
+        {
+          "key": "q-what-are-your-thoughts-on-internet-privacy",
+          "title": "你對網絡隱私有何看法？"
+        },
+        {
+          "key": "q-what-about-gdpr",
+          "title": "GDPR 呢？"
+        },
+        {
+          "key": "q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down",
+          "title": "你們處理下架請求嗎？"
+        },
+        {
+          "key": "q-do-you-process-data-requests",
+          "title": "你們處理數據請求嗎？"
+        }
+      ]
+    },
+    {
+      "title": "Telegram 基礎",
+      "key": "telegram-basics",
+      "children": [
+        {
+          "key": "q-who-can-i-write-to",
+          "title": "我可以傳送訊息給誰？"
+        },
+        {
+          "key": "q-who-can-contact-me",
+          "title": "誰可以給我發訊息？"
+        },
+        {
+          "key": "q-does-telegram-send-verification-codes-for-other-apps",
+          "title": "Telegram 會為其他應用傳送驗證碼嗎？"
+        },
+        {
+          "key": "q-how-do-i-know-who-in-my-contacts-has-telegram",
+          "title": "誰在使用 Telegram？"
+        },
+        {
+          "key": "q-how-do-i-invite-my-friends",
+          "title": "邀請朋友"
+        },
+        {
+          "key": "q-what-do-the-check-marks-mean",
+          "title": "Telegram 中的對勾代表什麼？"
+        },
+        {
+          "key": "q-can-i-hide-my-last-seen-time",
+          "title": "我可以隱藏我的‘最後上線時間’嗎？"
+        },
+        {
+          "key": "q-who-can-see-me-39online-39",
+          "title": "誰可以看到我在線？"
+        },
+        {
+          "key": "q-can-i-delete-my-messages",
+          "title": "我可以刪除我的訊息嗎？"
+        },
+        {
+          "key": "q-can-i-make-calls-via-telegram",
+          "title": "語音、視頻與群組通話"
+        },
+        {
+          "key": "q-how-can-i-use-emoticons",
+          "title": "使用表情符號"
+        }
+      ]
+    },
+    {
+      "title": "群組與頻道",
+      "key": "groups-and-channels",
+      "children": [
+        {
+          "key": "q-what-makes-telegram-groups-cool",
+          "title": "Telegram 群組有什麼特別之處？"
+        },
+        {
+          "key": "q-what-39s-the-difference-between-groups-and-channels",
+          "title": "頻道與群組有何不同？"
+        },
+        {
+          "key": "q-how-do-i-create-a-group",
+          "title": "創建群組"
+        },
+        {
+          "key": "q-how-do-i-add-more-members-what-39s-an-invite-link",
+          "title": "添加成員與使用邀請鏈接"
+        }
+      ]
+    },
+    {
+      "title": "用戶名與 t.me",
+      "key": "usernames-and-t-me",
+      "children": [
+        {
+          "key": "q-what-are-usernames-how-do-i-get-one",
+          "title": "什麼是用戶名？如何獲得？"
+        },
+        {
+          "key": "q-what-are-collectible-usernames-how-are-they-different-from-bas",
+          "title": "什麼是可收藏用戶名？它們與基本用戶名有何不同？"
+        },
+        {
+          "key": "q-how-does-t-me-work",
+          "title": "t.me 如何運作？"
+        },
+        {
+          "key": "q-what-can-i-use-as-my-username",
+          "title": "我可以用什麼作為我的用戶名？"
+        },
+        {
+          "key": "q-do-i-need-a-username",
+          "title": "我需要用戶名嗎？"
+        },
+        {
+          "key": "q-if-someone-finds-me-by-username-messages-and-i-reply-will-they",
+          "title": "他人會知道我的電話號碼嗎？"
+        },
+        {
+          "key": "q-how-do-i-delete-my-username",
+          "title": "如何刪除我的用戶名？"
+        },
+        {
+          "key": "q-what-do-i-do-if-my-username-is-taken",
+          "title": "如果用戶名被占用了，我該怎麼辦？"
+        },
+        {
+          "key": "q-what-if-someone-is-pretending-to-be-me",
+          "title": "如果有人冒充我怎麼辦？"
+        }
+      ]
+    },
+    {
+      "title": "安全性",
+      "key": "security",
+      "children": [
+        {
+          "key": "q-how-secure-is-telegram",
+          "title": "Telegram 有多安全？"
+        },
+        {
+          "key": "q-so-how-do-you-encrypt-data",
+          "title": "你如何加密數據？"
+        },
+        {
+          "key": "q-why-should-i-trust-you",
+          "title": "我為何應該信任你們？"
+        },
+        {
+          "key": "q-do-i-need-to-trust-telegram-for-this-to-be-secure",
+          "title": "為了安全，我需要信任 Telegram 嗎？"
+        },
+        {
+          "key": "q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes",
+          "title": "如果我的駭客朋友質疑你們怎麼辦？"
+        },
+        {
+          "key": "q-can-telegram-protect-me-against-everything",
+          "title": "Telegram 能保護我免受所有威脅嗎？"
+        },
+        {
+          "key": "q-how-does-2-step-verification-work",
+          "title": "兩步驟驗證如何運作？"
+        }
+      ]
+    },
+    {
+      "title": "秘密聊天",
+      "key": "secret-chats",
+      "children": [
+        {
+          "key": "q-how-are-secret-chats-different",
+          "title": "什麼是「秘密聊天」？"
+        },
+        {
+          "key": "q-how-do-i-start-a-secret-chat",
+          "title": "開始秘密聊天"
+        },
+        {
+          "key": "q-how-do-self-destructing-messages-work",
+          "title": "使用自毀計時器"
+        },
+        {
+          "key": "q-can-i-be-certain-that-my-conversation-partner-doesn-39t-take-a",
+          "title": "截圖提醒"
+        },
+        {
+          "key": "q-what-is-this-39encryption-key-39-thing",
+          "title": "加密金鑰圖片"
+        },
+        {
+          "key": "q-why-not-just-make-all-chats-39secret-39",
+          "title": "為何不讓所有聊天都成為秘密？"
+        }
+      ]
+    },
+    {
+      "title": "你的帳戶",
+      "key": "your-account",
+      "children": [
+        {
+          "key": "q-who-can-see-my-phone-number",
+          "title": "誰可以看到我的電話號碼？"
+        },
+        {
+          "key": "q-i-have-a-new-phone-number-what-do-i-do",
+          "title": "我換了新電話號碼，該怎麼辦？"
+        },
+        {
+          "key": "q-how-do-i-log-out",
+          "title": "登出 Telegram"
+        },
+        {
+          "key": "q-how-do-i-change-my-phone-number",
+          "title": "更換電話號碼"
+        },
+        {
+          "key": "q-how-do-i-delete-my-account",
+          "title": "刪除你的 Telegram 帳戶"
+        },
+        {
+          "key": "q-how-does-account-self-destruction-work",
+          "title": "帳戶自毀如何運作？"
+        },
+        {
+          "key": "q-my-phone-was-stolen-what-do-i-do",
+          "title": "我的手機被偷了，該怎麼辦？"
+        }
+      ]
+    },
+    {
+      "title": "機器人",
+      "key": "bots",
+      "children": [
+        {
+          "key": "q-how-do-i-create-a-bot",
+          "title": "如何創建機器人？"
+        },
+        {
+          "key": "q-a-bot-is-sending-me-messages-how-do-i-make-it-stop",
+          "title": "如何擺脫機器人？"
+        },
+        {
+          "key": "q-are-bots-safe",
+          "title": "機器人安全嗎？"
+        },
+        {
+          "key": "q-where-can-i-find-more-bots",
+          "title": "在哪裡可以獲得更多機器人？"
+        }
+      ]
+    },
+    {
+      "title": "更深入的問題",
+      "key": "deeper-questions",
+      "children": [
+        {
+          "key": "q-can-i-get-telegram-39s-server-side-code",
+          "title": "我可以獲取 Telegram 的伺服器端程式碼嗎？"
+        },
+        {
+          "key": "q-can-i-run-telegram-using-my-own-server",
+          "title": "我可以使用自己的伺服器嗎？"
+        },
+        {
+          "key": "q-can-i-use-the-telegram-api",
+          "title": "我可以使用 Telegram API 嗎？"
+        },
+        {
+          "key": "q-do-you-have-a-privacy-policy",
+          "title": "你們有隱私政策嗎？"
+        },
+        {
+          "key": "q-what-does-the-ios-privacy-sheet-mean",
+          "title": "iOS 隱私頁面是什麼意思？"
+        },
+        {
+          "key": "q-why-do-you-have-two-apps-in-the-mac-app-store",
+          "title": "為何在 Mac App Store 中有兩個應用？"
+        },
+        {
+          "key": "q-can-i-translate-telegram",
+          "title": "我可以翻譯 Telegram 嗎？"
+        },
+        {
+          "key": "q-can-i-help",
+          "title": "我可以幫忙嗎？"
+        }
+      ]
+    },
+    {
+      "title": "故障排除",
+      "key": "troubleshooting",
+      "children": [
+        {
+          "key": "login-and-sms",
+          "title": "短信、登入、註冊"
+        },
+        {
+          "key": "getting-a-code-via-a-phone-call",
+          "title": "透過電話獲取登入碼"
+        },
+        {
+          "key": "getting-a-code-via-telegram",
+          "title": "透過 Telegram 獲取驗證碼"
+        },
+        {
+          "key": "notification-problems",
+          "title": "通知問題"
+        },
+        {
+          "key": "problems-with-contacts",
+          "title": "聯絡人問題"
+        },
+        {
+          "key": "deleting-contacts-on-android",
+          "title": "在 Android 上刪除聯絡人"
+        },
+        {
+          "key": "where-did-my-secret-chat-messages-go",
+          "title": "秘密聊天"
+        },
+        {
+          "key": "can-39t-send-messages-to-non-contacts",
+          "title": "無法向非聯絡人發送訊息"
+        },
+        {
+          "key": "telegram-uses-the-camera-or-microphone-in-the-background",
+          "title": "Telegram 在背景使用相機或麥克風"
+        }
+      ]
+    },
+    {
+      "title": "聯繫 Telegram 支持",
+      "key": "telegram-support"
+    },
+    {
+      "title": "關注我們的 Twitter",
+      "key": "twitter"
+    },
+    {
+      "title": "Facebook",
+      "key": "facebook-or-other-platforms"
+    },
+    {
+      "title": "進階 FAQ",
+      "key": "https://core.telegram.org/techfaq"
+    }
+  ]
+}

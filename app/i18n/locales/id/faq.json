@@ -1,0 +1,388 @@
+{
+  "content": [
+    {
+      "title": "Umum",
+      "key": "general-questions",
+      "children": [
+        {
+          "key": "q-what-is-telegram-what-do-i-do-here",
+          "title": "Apa itu Telegram? Apa yang harus saya lakukan di sini?"
+        },
+        {
+          "key": "q-who-is-telegram-for",
+          "title": "Untuk siapa?"
+        },
+        {
+          "key": "q-how-is-telegram-different-from-whatsapp",
+          "title": "Bagaimana bedanya dengan WhatsApp?"
+        },
+        {
+          "key": "q-how-old-is-telegram",
+          "title": "Berapa usia Telegram?"
+        },
+        {
+          "key": "q-which-devices-can-i-use",
+          "title": "Apakah tersedia di perangkat saya?"
+        },
+        {
+          "key": "q-who-are-the-people-behind-telegram",
+          "title": "Siapa orang-orang di balik Telegram?"
+        },
+        {
+          "key": "q-where-is-telegram-based",
+          "title": "Di mana basis Telegram?"
+        },
+        {
+          "key": "q-how-are-you-going-to-make-money-out-of-this",
+          "title": "Bagaimana Anda menghasilkan uang?"
+        },
+        {
+          "key": "q-what-are-your-thoughts-on-internet-privacy",
+          "title": "Apa pendapat Anda tentang privasi internet?"
+        },
+        {
+          "key": "q-what-about-gdpr",
+          "title": "Bagaimana dengan GDPR?"
+        },
+        {
+          "key": "q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down",
+          "title": "Apakah Anda memproses permintaan penghapusan?"
+        },
+        {
+          "key": "q-do-you-process-data-requests",
+          "title": "Apakah Anda memproses permintaan data?"
+        }
+      ]
+    },
+    {
+      "title": "Dasar-dasar Telegram",
+      "key": "telegram-basics",
+      "children": [
+        {
+          "key": "q-who-can-i-write-to",
+          "title": "Siapa yang dapat saya kirimi pesan?"
+        },
+        {
+          "key": "q-who-can-contact-me",
+          "title": "Siapa yang dapat mengirimi saya pesan?"
+        },
+        {
+          "key": "q-does-telegram-send-verification-codes-for-other-apps",
+          "title": "Apakah Telegram mengirimkan Kode Verifikasi untuk aplikasi lain?"
+        },
+        {
+          "key": "q-how-do-i-know-who-in-my-contacts-has-telegram",
+          "title": "Siapa yang menggunakan Telegram?"
+        },
+        {
+          "key": "q-how-do-i-invite-my-friends",
+          "title": "Mengundang teman"
+        },
+        {
+          "key": "q-what-do-the-check-marks-mean",
+          "title": "Apa arti tanda centang di Telegram?"
+        },
+        {
+          "key": "q-can-i-hide-my-last-seen-time",
+          "title": "Bisakah saya menyembunyikan 'terakhir terlihat' saya?"
+        },
+        {
+          "key": "q-who-can-see-me-39online-39",
+          "title": "Siapa yang bisa melihat saya 'online'?"
+        },
+        {
+          "key": "q-can-i-delete-my-messages",
+          "title": "Bisakah saya menghapus pesan saya?"
+        },
+        {
+          "key": "q-can-i-make-calls-via-telegram",
+          "title": "Panggilan Suara, Video, dan Grup"
+        },
+        {
+          "key": "q-how-can-i-use-emoticons",
+          "title": "Menggunakan emotikon"
+        }
+      ]
+    },
+    {
+      "title": "Grup dan Saluran",
+      "key": "groups-and-channels",
+      "children": [
+        {
+          "key": "q-what-makes-telegram-groups-cool",
+          "title": "Apa yang membuat grup Telegram keren?"
+        },
+        {
+          "key": "q-what-39s-the-difference-between-groups-and-channels",
+          "title": "Bagaimana perbedaan saluran dan grup?"
+        },
+        {
+          "key": "q-how-do-i-create-a-group",
+          "title": "Membuat grup"
+        },
+        {
+          "key": "q-how-do-i-add-more-members-what-39s-an-invite-link",
+          "title": "Menambahkan anggota dan menggunakan Tautan Undangan"
+        }
+      ]
+    },
+    {
+      "title": "Nama Pengguna dan t.me",
+      "key": "usernames-and-t-me",
+      "children": [
+        {
+          "key": "q-what-are-usernames-how-do-i-get-one",
+          "title": "Apa itu nama pengguna? Bagaimana cara mendapatkannya?"
+        },
+        {
+          "key": "q-what-are-collectible-usernames-how-are-they-different-from-bas",
+          "title": "Apa itu Nama Pengguna Kolektibel? Bagaimana bedanya dengan nama pengguna dasar?"
+        },
+        {
+          "key": "q-how-does-t-me-work",
+          "title": "Bagaimana cara kerja t.me?"
+        },
+        {
+          "key": "q-what-can-i-use-as-my-username",
+          "title": "Apa yang bisa saya gunakan sebagai nama pengguna saya?"
+        },
+        {
+          "key": "q-do-i-need-a-username",
+          "title": "Apakah saya perlu nama pengguna?"
+        },
+        {
+          "key": "q-if-someone-finds-me-by-username-messages-and-i-reply-will-they",
+          "title": "Apakah orang akan tahu nomor saya?"
+        },
+        {
+          "key": "q-how-do-i-delete-my-username",
+          "title": "Bagaimana cara menghapus nama pengguna saya?"
+        },
+        {
+          "key": "q-what-do-i-do-if-my-username-is-taken",
+          "title": "Apa yang harus saya lakukan jika nama pengguna saya sudah digunakan?"
+        },
+        {
+          "key": "q-what-if-someone-is-pretending-to-be-me",
+          "title": "Bagaimana jika seseorang berpura-pura menjadi saya?"
+        }
+      ]
+    },
+    {
+      "title": "Keamanan",
+      "key": "security",
+      "children": [
+        {
+          "key": "q-how-secure-is-telegram",
+          "title": "Seberapa aman Telegram?"
+        },
+        {
+          "key": "q-so-how-do-you-encrypt-data",
+          "title": "Bagaimana Anda mengenkripsi data?"
+        },
+        {
+          "key": "q-why-should-i-trust-you",
+          "title": "Mengapa saya harus mempercayai Anda?"
+        },
+        {
+          "key": "q-do-i-need-to-trust-telegram-for-this-to-be-secure",
+          "title": "Apakah saya perlu mempercayai Telegram agar aman?"
+        },
+        {
+          "key": "q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes",
+          "title": "Bagaimana jika teman hacker saya meragukan Anda?"
+        },
+        {
+          "key": "q-can-telegram-protect-me-against-everything",
+          "title": "Apakah Telegram dapat melindungi saya dari segala hal?"
+        },
+        {
+          "key": "q-how-does-2-step-verification-work",
+          "title": "Bagaimana cara kerja Verifikasi 2-Langkah?"
+        }
+      ]
+    },
+    {
+      "title": "Obrolan Rahasia",
+      "key": "secret-chats",
+      "children": [
+        {
+          "key": "q-how-are-secret-chats-different",
+          "title": "Apa itu _obrolan rahasia_?"
+        },
+        {
+          "key": "q-how-do-i-start-a-secret-chat",
+          "title": "Memulai obrolan rahasia"
+        },
+        {
+          "key": "q-how-do-self-destructing-messages-work",
+          "title": "Menggunakan timer penghancuran otomatis"
+        },
+        {
+          "key": "q-can-i-be-certain-that-my-conversation-partner-doesn-39t-take-a",
+          "title": "Peringatan tangkapan layar"
+        },
+        {
+          "key": "q-what-is-this-39encryption-key-39-thing",
+          "title": "Gambar kunci enkripsi"
+        },
+        {
+          "key": "q-why-not-just-make-all-chats-39secret-39",
+          "title": "Mengapa tidak menjadikan semua obrolan 'rahasia'?"
+        }
+      ]
+    },
+    {
+      "title": "Akun Anda",
+      "key": "your-account",
+      "children": [
+        {
+          "key": "q-who-can-see-my-phone-number",
+          "title": "Siapa yang dapat melihat nomor telepon saya?"
+        },
+        {
+          "key": "q-i-have-a-new-phone-number-what-do-i-do",
+          "title": "Saya memiliki nomor telepon baru, apa yang harus saya lakukan?"
+        },
+        {
+          "key": "q-how-do-i-log-out",
+          "title": "Keluar dari Telegram"
+        },
+        {
+          "key": "q-how-do-i-change-my-phone-number",
+          "title": "Ubah nomor telepon Anda"
+        },
+        {
+          "key": "q-how-do-i-delete-my-account",
+          "title": "Hapus akun Telegram Anda"
+        },
+        {
+          "key": "q-how-does-account-self-destruction-work",
+          "title": "Bagaimana cara kerja penghancuran akun sendiri?"
+        },
+        {
+          "key": "q-my-phone-was-stolen-what-do-i-do",
+          "title": "Telepon saya dicuri. Apa yang harus saya lakukan?"
+        }
+      ]
+    },
+    {
+      "title": "Bot",
+      "key": "bots",
+      "children": [
+        {
+          "key": "q-how-do-i-create-a-bot",
+          "title": "Bagaimana cara membuat bot?"
+        },
+        {
+          "key": "q-a-bot-is-sending-me-messages-how-do-i-make-it-stop",
+          "title": "Bagaimana cara menghapus bot?"
+        },
+        {
+          "key": "q-are-bots-safe",
+          "title": "Apakah bot aman?"
+        },
+        {
+          "key": "q-where-can-i-find-more-bots",
+          "title": "Di mana saya bisa mendapatkan lebih banyak bot?"
+        }
+      ]
+    },
+    {
+      "title": "Pertanyaan Mendalam",
+      "key": "deeper-questions",
+      "children": [
+        {
+          "key": "q-can-i-get-telegram-39s-server-side-code",
+          "title": "Bisakah saya mendapatkan kode sisi server Telegram?"
+        },
+        {
+          "key": "q-can-i-run-telegram-using-my-own-server",
+          "title": "Bisakah saya menggunakan server saya sendiri?"
+        },
+        {
+          "key": "q-can-i-use-the-telegram-api",
+          "title": "Bisakah saya menggunakan API Telegram?"
+        },
+        {
+          "key": "q-do-you-have-a-privacy-policy",
+          "title": "Apakah Anda memiliki Kebijakan Privasi?"
+        },
+        {
+          "key": "q-what-does-the-ios-privacy-sheet-mean",
+          "title": "Apa arti lembar privasi iOS?"
+        },
+        {
+          "key": "q-why-do-you-have-two-apps-in-the-mac-app-store",
+          "title": "Mengapa ada dua aplikasi di Mac App Store?"
+        },
+        {
+          "key": "q-can-i-translate-telegram",
+          "title": "Bisakah saya menerjemahkan Telegram?"
+        },
+        {
+          "key": "q-can-i-help",
+          "title": "Bisakah saya membantu?"
+        }
+      ]
+    },
+    {
+      "title": "Pemecahan Masalah",
+      "key": "troubleshooting",
+      "children": [
+        {
+          "key": "login-and-sms",
+          "title": "SMS, masuk, daftar"
+        },
+        {
+          "key": "getting-a-code-via-a-phone-call",
+          "title": "Mendapatkan kode masuk melalui panggilan telepon"
+        },
+        {
+          "key": "getting-a-code-via-telegram",
+          "title": "Mendapatkan kode melalui Telegram"
+        },
+        {
+          "key": "notification-problems",
+          "title": "Masalah notifikasi"
+        },
+        {
+          "key": "problems-with-contacts",
+          "title": "Masalah dengan kontak"
+        },
+        {
+          "key": "deleting-contacts-on-android",
+          "title": "Menghapus kontak di Android"
+        },
+        {
+          "key": "where-did-my-secret-chat-messages-go",
+          "title": "Obrolan Rahasia"
+        },
+        {
+          "key": "can-39t-send-messages-to-non-contacts",
+          "title": "Tidak dapat mengirim pesan ke bukan kontak"
+        },
+        {
+          "key": "telegram-uses-the-camera-or-microphone-in-the-background",
+          "title": "Telegram menggunakan kamera atau mikrofon di latar belakang"
+        }
+      ]
+    },
+    {
+      "title": "Hubungi Dukungan Telegram",
+      "key": "telegram-support"
+    },
+    {
+      "title": "Ikuti Kami di Twitter",
+      "key": "twitter"
+    },
+    {
+      "title": "Facebook",
+      "key": "facebook-or-other-platforms"
+    },
+    {
+      "title": "FAQ Lanjutan",
+      "key": "https://core.telegram.org/techfaq"
+    }
+  ]
+}

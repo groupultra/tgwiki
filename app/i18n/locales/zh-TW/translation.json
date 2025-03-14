@@ -1,0 +1,97 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "知識庫",
+  "title": "wikiTg",
+  "content": "WikiTG 高品質的 Telegram 知識庫，助力使用者更科學、更高效地使用 Telegram。",
+  "subtitle": "WikiTG 高品質的 Telegram 知識庫",
+  "description": "助力使用者更科學、更高效地使用 Telegram",
+  "start": "立即開始",
+  "nav": {
+    "start": "快速開始",
+    "use": "常用功能",
+    "FAQ": "常見問題"
+  },
+  "quickTitle": "快速入門",
+  "CommonlyTitle": "常用功能",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "文檔指南",
+      "description": "WikiTG 使用說明和閱讀提示"
+    },
+    "term_explanation": {
+      "title": "名詞解釋",
+      "description": "TG 常用的術語介紹"
+    },
+    "chinese_language_pack": {
+      "title": "中文語言包",
+      "description": "安裝中文語言包，使用漢化版 TG"
+    },
+    "privacy_settings": {
+      "title": "隱私設置",
+      "description": "Telegram 隱私權限和規則"
+    },
+    "cache_and_download": {
+      "title": "快取和下載",
+      "description": "清除 Telegram 快取，修改自動下載設置"
+    },
+    "dc_explanation": {
+      "title": "DC 說明",
+      "description": "Telegram 5 個 DC 說明介紹"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "訊息格式",
+        "key": "message_format",
+        "items": "Telegram 訊息副本文本格式，以及部分引用功能"
+      },
+      {
+        "key": "image_layout",
+        "category": "圖片排版",
+        "items": "發送圖片時添加文字說明，發送原圖，對圖片重新排序"
+      },
+      {
+        "key": "built_in_search",
+        "category": "內建搜尋",
+        "items": "Telegram 搜尋技巧，透過內建搜尋查找對話、訊息"
+      },
+      {
+        "key": "create_stickers",
+        "category": "建立貼圖",
+        "items": "建立自己的貼圖包，可透過連結分享給他人"
+      },
+      {
+        "key": "create_bot",
+        "category": "建立機器人",
+        "items": "依照 Bot API 編寫自己的機器人"
+      },
+      {
+        "key": "telegraph",
+        "category": "Telegraph",
+        "items": "透過 Telegram 快速發表並分享你的文章"
+      },
+      {
+        "key": "private_chat_bot",
+        "category": "私聊機器人搭建",
+        "items": "搭建私聊機器人，方便被雙向限制的使用者私聊"
+      },
+      {
+        "key": "premium",
+        "category": "Premium",
+        "items": "Telegram 大會員專屬功能介紹及開通價格"
+      },
+      {
+        "key": "channel_group_boost",
+        "category": "頻道/群組助推",
+        "items": "透過助推幫助頻道/群組開啟更多功能"
+      },
+      {
+        "key": "shortcuts",
+        "category": "快捷鍵",
+        "items": "Telegram Desktop 常用快捷鍵"
+      }
+    ]
+  }
+}

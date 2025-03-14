@@ -1,0 +1,97 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "知識ベース",
+  "title": "wikiTg",
+  "content": "WikiTG は高品質な Telegram の知識ベースであり、ユーザーがより科学的かつ効率的に Telegram を利用できるよう支援します。",
+  "subtitle": "WikiTG 高品質な Telegram 知識ベース",
+  "description": "ユーザーがより科学的かつ効率的に Telegram を利用できるよう支援します",
+  "start": "今すぐ開始",
+  "nav": {
+    "start": "クイックスタート",
+    "use": "よく使う機能",
+    "FAQ": "よくある質問"
+  },
+  "quickTitle": "クイック入門",
+  "CommonlyTitle": "よく使う機能",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "ドキュメントガイド",
+      "description": "WikiTG の使用説明と読み方のヒント"
+    },
+    "term_explanation": {
+      "title": "用語解説",
+      "description": "TG のよく使われる用語の紹介"
+    },
+    "chinese_language_pack": {
+      "title": "中国語言語パック",
+      "description": "中国語言語パックをインストールして、ローカライズされた TG を使用"
+    },
+    "privacy_settings": {
+      "title": "プライバシー設定",
+      "description": "Telegram のプライバシー権限と規則"
+    },
+    "cache_and_download": {
+      "title": "キャッシュとダウンロード",
+      "description": "Telegram のキャッシュをクリアし、自動ダウンロード設定を変更"
+    },
+    "dc_explanation": {
+      "title": "DC 説明",
+      "description": "Telegram の5つの DC の説明紹介"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "メッセージフォーマット",
+        "key": "message_format",
+        "items": "Telegram のメッセージ副本文本フォーマット、および一部引用機能"
+      },
+      {
+        "key": "image_layout",
+        "category": "画像レイアウト",
+        "items": "画像送信時にテキスト説明を追加、原画像の送信、画像の並べ替え"
+      },
+      {
+        "key": "built_in_search",
+        "category": "内蔵検索",
+        "items": "Telegram の検索テクニック、内蔵検索で対話やメッセージを検索"
+      },
+      {
+        "key": "create_stickers",
+        "category": "スタンプ作成",
+        "items": "自分のスタンプパックを作成し、リンクで他者と共有可能"
+      },
+      {
+        "key": "create_bot",
+        "category": "ボット作成",
+        "items": "Bot API に従って自分のボットを作成"
+      },
+      {
+        "key": "telegraph",
+        "category": "Telegraph",
+        "items": "Telegram を通じて素早く記事を投稿し、共有する"
+      },
+      {
+        "key": "private_chat_bot",
+        "category": "プライベートチャットボット構築",
+        "items": "プライベートチャットボットを構築し、相互制限されたユーザー間のチャットを容易にする"
+      },
+      {
+        "key": "premium",
+        "category": "Premium",
+        "items": "Telegram プレミアム会員専用機能の紹介および価格設定"
+      },
+      {
+        "key": "channel_group_boost",
+        "category": "チャンネル/グループブースト",
+        "items": "ブーストを通じてチャンネル/グループの更なる機能を有効化する"
+      },
+      {
+        "key": "shortcuts",
+        "category": "ショートカット",
+        "items": "Telegram Desktop のよく使うショートカットキー"
+      }
+    ]
+  }
+}

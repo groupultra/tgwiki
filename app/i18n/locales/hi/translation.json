@@ -1,0 +1,97 @@
+{
+  "Telegram": "Telegram",
+  "knowledgeBase": "ज्ञानकोष",
+  "title": "wikiTg",
+  "content": "WikiTG एक उच्च गुणवत्ता वाला Telegram ज्ञानकोष है, जो उपयोगकर्ताओं को Telegram का अधिक वैज्ञानिक और कुशलतापूर्वक उपयोग करने में मदद करता है।",
+  "subtitle": "WikiTG उच्च गुणवत्ता वाला Telegram ज्ञानकोष",
+  "description": "उपयोगकर्ताओं को Telegram का अधिक वैज्ञानिक और कुशलतापूर्वक उपयोग करने में मदद करता है",
+  "start": "अभी शुरू करें",
+  "nav": {
+    "start": "त्वरित शुरुआत",
+    "use": "आम फ़ंक्शन",
+    "FAQ": "सामान्य प्रश्न"
+  },
+  "quickTitle": "त्वरित प्रवेश",
+  "CommonlyTitle": "आम फ़ंक्शन",
+  "FAQ": "FAQ",
+  "quickData": {
+    "document_guide": {
+      "title": "दस्तावेज़ मार्गदर्शिका",
+      "description": "WikiTG उपयोग निर्देश और पढ़ने के संकेत"
+    },
+    "term_explanation": {
+      "title": "शब्दावली व्याख्या",
+      "description": "TG में प्रयुक्त सामान्य शब्दों का परिचय"
+    },
+    "chinese_language_pack": {
+      "title": "चीनी भाषा पैक",
+      "description": "चीनी भाषा पैक स्थापित करें, चीनी अनुवादित TG का उपयोग करें"
+    },
+    "privacy_settings": {
+      "title": "गोपनीयता सेटिंग्स",
+      "description": "Telegram की गोपनीयता अनुमतियाँ और नियम"
+    },
+    "cache_and_download": {
+      "title": "कैश और डाउनलोड",
+      "description": "Telegram कैश साफ़ करें, स्वचालित डाउनलोड सेटिंग्स को संशोधित करें"
+    },
+    "dc_explanation": {
+      "title": "DC विवरण",
+      "description": "Telegram के 5 DC के विवरण का परिचय"
+    }
+  },
+  "function": {
+    "content": [
+      {
+        "category": "संदेश प्रारूप",
+        "key": "message_format",
+        "items": "Telegram संदेश सह-पाठ प्रारूप, और कुछ उद्धरण सुविधाएँ"
+      },
+      {
+        "category": "छवि लेआउट",
+        "key": "image_layout",
+        "items": "छवि भेजते समय पाठ विवरण जोड़ें, मूल छवि भेजें, छवि पुन:क्रमबद्ध करें"
+      },
+      {
+        "category": "इन-बिल्ट खोज",
+        "key": "built_in_search",
+        "items": "Telegram खोज तकनीक, इन-बिल्ट खोज द्वारा वार्तालाप और संदेश खोजें"
+      },
+      {
+        "category": "स्टिकर बनाएँ",
+        "key": "create_stickers",
+        "items": "अपना खुद का स्टिकर पैक बनाएँ, लिंक के माध्यम से दूसरों के साथ साझा करें"
+      },
+      {
+        "category": "बोट बनाएँ",
+        "key": "create_bot",
+        "items": "Bot API के अनुसार अपना खुद का बोट लिखें"
+      },
+      {
+        "category": "Telegraph",
+        "key": "telegraph",
+        "items": "Telegram के माध्यम से तेजी से अपने लेख प्रकाशित और साझा करें"
+      },
+      {
+        "category": "प्राइवेट चैट बोट",
+        "key": "private_chat_bot",
+        "items": "प्राइवेट चैट बोट सेटअप करें, जिससे द्विपक्षीय प्रतिबंधित उपयोगकर्ताओं के लिए निजी चैट सुविधाजनक हो सके"
+      },
+      {
+        "category": "Premium",
+        "key": "premium",
+        "items": "Telegram प्रीमियम सदस्य विशेष सुविधाओं का परिचय और मूल्य निर्धारण"
+      },
+      {
+        "category": "चैनल/ग्रुप बूस्ट",
+        "key": "channel_group_boost",
+        "items": "बूस्ट के माध्यम से चैनल/ग्रुप में अधिक सुविधाएँ सक्षम करें"
+      },
+      {
+        "category": "शॉर्टकट",
+        "key": "shortcuts",
+        "items": "Telegram Desktop के सामान्य शॉर्टकट"
+      }
+    ]
+  }
+}
