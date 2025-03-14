@@ -33,6 +33,7 @@ export async function generateMetadata({
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useTranslation(lng);
   return {
+    // @ts-ignore
     title: t("title"),
     content: t("content"),
     icons: {
