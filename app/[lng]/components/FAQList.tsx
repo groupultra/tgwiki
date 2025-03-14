@@ -47,7 +47,9 @@ const FAQList = ({ data }: { data: any }) => {
                         title: item.title,
                         description: "",
                       });
-                      document?.getElementById("faq_dialog")?.showModal();
+                      (
+                        document?.getElementById("faq_dialog") as any
+                      )?.showModal();
                     }}
                     showGradients={true}
                     enableArrowNavigation={true}
