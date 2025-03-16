@@ -1,40 +1,9 @@
-import {
-  BookMinus,
-  Cookie,
-  Download,
-  Languages,
-  Lightbulb,
-  Send,
-} from "lucide-react";
 import type { Variants } from "motion/react";
 import * as motion from "motion/react-client";
+import Link from "next/link";
+import { navListData } from "../../lib/navListData";
 import SpotlightCard from "./animation/SpotlightCard";
-const data = [
-  {
-    key: "document_guide",
-    icon: <Lightbulb size={30} />,
-  },
-  {
-    key: "privacy_settings",
-    icon: <Cookie size={30} />,
-  },
-  {
-    key: "term_explanation",
-    icon: <BookMinus size={30} />,
-  },
-  {
-    key: "cache_and_download",
-    icon: <Download size={30} />,
-  },
-  {
-    key: "chinese_language_pack",
-    icon: <Languages size={30} />,
-  },
-  {
-    key: "dc_explanation",
-    icon: <Send size={30} />,
-  },
-];
+
 const cardVariants: Variants = {
   offscreen: {
     y: 0,
@@ -50,10 +19,10 @@ const cardVariants: Variants = {
     },
   },
 };
-const QuickBlock = ({ t }: { t: any }) => {
+const QuickBlock = ({ t, lng }: { t: any; lng: string }) => {
   return (
     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-10">
-      {data.map((item, index) => {
+      {navListData.map((item, index) => {
         return (
           <motion.div
             initial="offscreen"
@@ -62,8 +31,9 @@ const QuickBlock = ({ t }: { t: any }) => {
             variants={cardVariants}
             key={index}
           >
-            <div
+            <Link
               key={index}
+              href={`/${lng}/docs/${item.key}`}
               className="flex flex-col items-center gap-4 py-4 cursor-pointer"
             >
               <SpotlightCard
@@ -81,7 +51,7 @@ const QuickBlock = ({ t }: { t: any }) => {
               <p className="text-center">
                 {t(`quickData.${item.key}.description`)}
               </p>
-            </div>
+            </Link>
           </motion.div>
         );
       })}
