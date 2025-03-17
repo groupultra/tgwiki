@@ -17,8 +17,8 @@ html,
 body,
 main {
   width: 100vw;
-  overflow-x: hidden;
 }
+
 body {
   font-family: var(--font-inter), "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;

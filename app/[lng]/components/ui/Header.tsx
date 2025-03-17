@@ -9,9 +9,11 @@ import { cn } from "../../../lib/utils";
 export const Header = ({
   navData,
   path = "",
+  className = "",
 }: {
   navData: any;
   path?: string;
+  className?: string;
 }) => {
   const [bg, setBg] = useState(true);
   useEffect(() => {
@@ -24,7 +26,8 @@ export const Header = ({
   return (
     <header
       className={cn(
-        "navbar backdrop-blur justify-between fixed top-0 shadow-xs z-10"
+        "navbar backdrop-blur justify-between fixed top-0 shadow-xs z-10",
+        className
       )}
       style={{
         backgroundColor: bg ? "transparent" : "#fff",
@@ -51,7 +54,7 @@ export const Header = ({
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content rounded-box mt-3 w-100 p-2 shadow bg-base-100"
+            className="menu menu-sm dropdown-content rounded-box mt-3 w-90 p-2 shadow bg-base-100"
             style={{ zIndex: 99, position: "absolute" }}
           >
             {navData.map((item: any, index: number) => (

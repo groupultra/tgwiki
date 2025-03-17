@@ -1,3 +1,4 @@
+import Link from "next/link";
 const SidebarItem = ({
   icon,
   title,
@@ -7,9 +8,8 @@ const SidebarItem = ({
   childrenItem,
 }: any) => {
   return (
-    <li className="mb-2">
-      <a
-        href="#"
+    <li className={`mb-2`}>
+      <p
         className={`flex items-center p-2 hover:bg-gray-200 ${
           isActive ? "bg-blue-100" : ""
         }`}
@@ -32,14 +32,17 @@ const SidebarItem = ({
             />
           </svg>
         )}
-      </a>
+      </p>
       {childrenItem && childrenItem.length > 0 && (
-        <ul>
+        <ul key="childrenUl" className="ml-3">
           {childrenItem.map((child: any) => (
             <li key={child.key}>
-              <a href="#" className="flex items-center p-2 hover:bg-gray-200">
+              <Link
+                href={"/docs/" + child.key}
+                className="flex items-center p-2 hover:bg-gray-200"
+              >
                 <span className="ml-2">{child.title}</span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

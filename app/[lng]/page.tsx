@@ -20,7 +20,7 @@ export default async function Page({
   const { t } = await useTranslation(lng);
 
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Header
         path={"/"}
         navData={[
@@ -38,7 +38,7 @@ export default async function Page({
           { icon: <CircleHelp size={20} />, title: t("nav.FAQ"), link: "#faq" },
         ]}
       />
-      <section className="w-full text-[var(--text-title)] pt-48 pb-30 animated-bg">
+      <section className="w-screen text-[var(--text-title)] pt-48 pb-30 animated-bg !overflow-hidden">
         <div className="flex gap-6 relative container mx-auto justify-center items-center md:flex-row flex-col font-bold text-6xl md:text-8xl pb-20">
           <h1 className="fall-animate fall-animate-1">{t("TG")}</h1>
           <h1 className="fall-animate fall-animate-2">{t("Wiki")}</h1>
