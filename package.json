@@ -20,6 +20,7 @@
     "@types/markdown-it": "^14.1.2",
     "accept-language": "3.0.20",
     "autoprefixer": "^10.4.21",
+    "axios": "^1.8.3",
     "clsx": "^2.1.1",
     "daisyui": "^5.0.2",
     "framer-motion": "^12.5.0",
