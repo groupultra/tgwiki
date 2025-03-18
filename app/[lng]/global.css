@@ -1,14 +1,5 @@
 @import "tailwindcss";
-@plugin "daisyui" {
-  themes: light --default;
-}
-@plugin "daisyui/theme" {
-  name: "light";
-  default: true;
-  --text-title: #140626;
-  --text-gradient: linear-gradient(180deg, #555555, #000000);
-}
-
+@plugin "daisyui";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 html {
   scroll-behavior: smooth;

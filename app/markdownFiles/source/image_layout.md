@@ -3,30 +3,29 @@
 
 ## 图片排版
 
-* * *
+---
 
-## [Telegram图片排版](#telegram图片排版)
+## [Telegram 图片排版](#telegram图片排版)
 
 ## [图片添加说明、发送原图](#图片添加说明、发送原图)
 
-Telegram发图片格式，默认是会压缩的，只不过压缩的比较少，普通图片影响不大，但是长图压缩后就几乎看不清了
+Telegram 发图片格式，默认是会压缩的，只不过压缩的比较少，普通图片影响不大，但是长图压缩后就几乎看不清了
 
-+   移动端：点击图片（而不是点击右上角选中图片），下方输入框可以添加文字说明。长按右下角发送按钮，选择`发送文件`就不会压缩了。
-    
-    操作演示
-    
-    ![A-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/editphoto1.jpg)
-    
-    A-editphoto1.jpg
-    
-+   电脑端：发送图片时图片下方有输入框，输入文字就可以了。取消勾选`图片模式`即可通过源文件的形式发出。勾选下方的`记住选择`后，下次会默认以原图发送。勾选图片格式时，右键图片可以为图片添加遮罩效果。
-    
-    操作演示
-    
-    ![D-editphoto.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/D/editphoto.jpg)
-    
-    D-editphoto.jpg
-    
+- 移动端：点击图片（而不是点击右上角选中图片），下方输入框可以添加文字说明。长按右下角发送按钮，选择`发送文件`就不会压缩了。
+
+  操作演示
+
+  ![A-editphoto1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/editphoto1.jpg)
+
+  A-editphoto1.jpg
+
+- 电脑端：发送图片时图片下方有输入框，输入文字就可以了。取消勾选`图片模式`即可通过源文件的形式发出。勾选下方的`记住选择`后，下次会默认以原图发送。勾选图片格式时，右键图片可以为图片添加遮罩效果。
+
+  操作演示
+
+  ![D-editphoto.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/D/editphoto.jpg)
+
+  D-editphoto.jpg
 
 ## [编辑图片](#编辑图片)
 

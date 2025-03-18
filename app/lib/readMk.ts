@@ -30,8 +30,11 @@ export async function readMk(lng: string, key: string): Promise<string> {
       ];
       const content = await fetch(prompt);
       let newContent = content.choices[0]?.message?.content;
-      if (newContent.startsWith("```markdown")) {
-        newContent = newContent.replace("```markdown", "");
+      if (
+        newContent.startsWith("```markdown") ||
+        newContent.startsWith("```")
+      ) {
+        newContent = newContent.replace(/\`\`\`(markdown)?/, "");
       }
       if (newContent.endsWith("```")) {
         newContent = newContent.replace(/\`\`\`$/, "");

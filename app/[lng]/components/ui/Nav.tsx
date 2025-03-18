@@ -21,7 +21,7 @@ function NavComponent({
               <p className={`flex items-center p-2 hover:bg-gray-20`}>
                 {item.icon}
                 <span className="ml-2">{item.title}</span>
-                {item.hasSubmenu && (
+                {item.children && item.children.length > 0 && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5 ml-auto"
