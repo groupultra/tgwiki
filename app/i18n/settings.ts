@@ -1,12 +1,12 @@
 export const fallbackLng = "en";
 export const languages = [fallbackLng, "zh-TW", "ja", "hi", "id", "vi"];
 export const languagesText = [
-  "English",
-  "繁體中文",
-  "日本語",
-  "हिन्दी",
-  "Bahasa Indonesia",
-  "Tiếng Việt",
+  "English", // 英语
+  "繁體中文", // 中文繁体
+  "日本語", // 日语
+  "हिन्दी", // 印度语
+  "Bahasa Indonesia", // 印尼语
+  "Tiếng Việt", // 越南语
 ];
 export const defaultNS = "translation";
 export const cookieName = "i18next";
