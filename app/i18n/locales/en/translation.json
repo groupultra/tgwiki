@@ -19,6 +19,10 @@
       "title": "Document Guide",
       "description": "Instructions and reading tips for using WikiTG"
     },
+    "telegram_limit": {
+      "title": "Telegram Limit",
+      "description": "Introduction of Telegram's usage limits"
+    },
     "term_explanation": {
       "title": "Term Explanation",
       "description": "Introduction of common terms used in TG"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "Create Group",
+        "items": "Create Group"
+      },
+      {
+        "key": "create_channel",
+        "category": "Create Channel",
+        "items": "Create Channel"
+      },
+      {
+        "key": "add_account",
+        "category": "Add Account",
+        "items": "Add Account"
+      },
+      {
+        "key": "delete_account",
+        "category": "Delete Account",
+        "items": "Delete Account"
+      },
+      {
+        "key": "comment_function",
+        "category": "Comment Function",
+        "items": "Comment Function"
+      },
+      {
+        "key": "bookmark",
+        "category": "Bookmark",
+        "items": "Bookmark"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "Scan QR Code",
+        "items": "Scan QR Code"
+      },
+      {
+        "key": "create_poll",
+        "category": "Create Poll",
+        "items": "Create Poll"
+      },
+      {
+        "key": "message_translation",
+        "category": "Message Translation",
+        "items": "Message Translation"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "Dialogue Group",
+        "items": "Dialogue Group"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Telegram Theme",
+        "items": "Telegram Theme"
+      },
       {
         "category": "Message Format",
         "key": "message_format",

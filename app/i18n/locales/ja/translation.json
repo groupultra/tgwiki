@@ -19,6 +19,10 @@
       "title": "ドキュメントガイド",
       "description": "WikiTG の使用説明と読み方のヒント"
     },
+    "telegram_limit": {
+      "title": "Telegram の使用制限",
+      "description": "Telegram の使用制限の紹介"
+    },
     "term_explanation": {
       "title": "用語解説",
       "description": "TG のよく使われる用語の紹介"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "グループ作成",
+        "items": "グループ作成"
+      },
+      {
+        "key": "create_channel",
+        "category": "チャンネル作成",
+        "items": "チャンネル作成"
+      },
+      {
+        "key": "add_account",
+        "category": "アカウント追加",
+        "items": "アカウント追加"
+      },
+      {
+        "key": "delete_account",
+        "category": "アカウント削除",
+        "items": "アカウント削除"
+      },
+      {
+        "key": "comment_function",
+        "category": "コメント機能",
+        "items": "コメント機能"
+      },
+      {
+        "key": "bookmark",
+        "category": "ブックマーク",
+        "items": "ブックマーク"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "QRコードスキャン",
+        "items": "QRコードスキャン"
+      },
+      {
+        "key": "create_poll",
+        "category": "投票作成",
+        "items": "投票作成"
+      },
+      {
+        "key": "message_translation",
+        "category": "メッセージ翻訳",
+        "items": "メッセージ翻訳"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "対話グループ",
+        "items": "対話グループ"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Telegram テーマ",
+        "items": "Telegram テーマ"
+      },
       {
         "category": "メッセージフォーマット",
         "key": "message_format",

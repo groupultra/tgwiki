@@ -19,6 +19,10 @@
       "title": "Hướng dẫn tài liệu",
       "description": "Hướng dẫn sử dụng WikiTG và mẹo đọc tài liệu"
     },
+    "telegram_limit": {
+      "title": "Giới hạn Telegram",
+      "description": "Giới thiệu giới hạn sử dụng Telegram"
+    },
     "term_explanation": {
       "title": "Giải thích thuật ngữ",
       "description": "Giới thiệu các thuật ngữ thường dùng trong TG"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "Tạo nhóm",
+        "items": "Tạo nhóm"
+      },
+      {
+        "key": "create_channel",
+        "category": "Tạo kênh",
+        "items": "Tạo kênh"
+      },
+      {
+        "key": "add_account",
+        "category": "Thêm tài khoản",
+        "items": "Thêm tài khoản"
+      },
+      {
+        "key": "delete_account",
+        "category": "Xóa tài khoản",
+        "items": "Xóa tài khoản"
+      },
+      {
+        "key": "comment_function",
+        "category": "Chức năng bình luận",
+        "items": "Chức năng bình luận"
+      },
+      {
+        "key": "bookmark",
+        "category": "Bộ sưu tập",
+        "items": "Bộ sưu tập"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "Quét QR",
+        "items": "Quét QR"
+      },
+      {
+        "key": "create_poll",
+        "category": "Tạo bình chọn",
+        "items": "Tạo bình chọn"
+      },
+      {
+        "key": "message_translation",
+        "category": "Dịch tin nhắn",
+        "items": "Dịch tin nhắn"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "Phân nhóm cuộc trò chuyện",
+        "items": "Phân nhóm cuộc trò chuyện"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Chủ đề Telegram",
+        "items": "Chủ đề Telegram"
+      },
       {
         "category": "Định dạng tin nhắn",
         "key": "message_format",

@@ -1,5 +1,5 @@
 export const fallbackLng = "en";
-export const languages = [fallbackLng, "zh-TW", "ja", "hi", "id", "vi"];
+export const languages = ["en", "zh-TW", "ja", "hi", "id", "vi"];
 export const languagesText = [
   "English", // 英语
   "繁體中文", // 中文繁体

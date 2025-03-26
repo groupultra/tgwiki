@@ -19,6 +19,10 @@
       "title": "दस्तावेज़ मार्गदर्शिका",
       "description": "WikiTG उपयोग निर्देश और पढ़ने के संकेत"
     },
+    "telegram_limit": {
+      "title": "Telegram सीमा",
+      "description": "Telegram का उपयोग सीमा का परिचय"
+    },
     "term_explanation": {
       "title": "शब्दावली व्याख्या",
       "description": "TG में प्रयुक्त सामान्य शब्दों का परिचय"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "ग्रुप बनाएँ",
+        "items": "ग्रुप बनाएँ"
+      },
+      {
+        "key": "create_channel",
+        "category": "चैनल बनाएँ",
+        "items": "चैनल बनाएँ"
+      },
+      {
+        "key": "add_account",
+        "category": "खाता जोड़ें",
+        "items": "खाता जोड़ें"
+      },
+      {
+        "key": "delete_account",
+        "category": "खाता हटाएँ",
+        "items": "खाता हटाएँ"
+      },
+      {
+        "key": "comment_function",
+        "category": "टिप्पणी सुविधा",
+        "items": "टिप्पणी सुविधा"
+      },
+      {
+        "key": "bookmark",
+        "category": "बुकमार्क",
+        "items": "बुकमार्क"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "QR कोड स्कैन करें",
+        "items": "QR कोड स्कैन करें"
+      },
+      {
+        "key": "create_poll",
+        "category": "बोल बनाएँ",
+        "items": "बोल बनाएँ"
+      },
+      {
+        "key": "message_translation",
+        "category": "संदेश अनुवाद",
+        "items": "संदेश अनुवाद"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "वार्तालाप समूह",
+        "items": "वार्तालाप समूह"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Telegram विषय",
+        "items": "Telegram विषय"
+      },
       {
         "category": "संदेश प्रारूप",
         "key": "message_format",

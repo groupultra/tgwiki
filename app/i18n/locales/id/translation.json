@@ -19,6 +19,10 @@
       "title": "Panduan Dokumen",
       "description": "Instruksi penggunaan WikiTG dan petunjuk membaca"
     },
+    "telegram_limit": {
+      "title": "Batas Telegram",
+      "description": "Pengenalan batas penggunaan Telegram"
+    },
     "term_explanation": {
       "title": "Penjelasan Istilah",
       "description": "Pengenalan istilah umum yang digunakan di TG"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "Buat Grup",
+        "items": "Buat Grup"
+      },
+      {
+        "key": "create_channel",
+        "category": "Buat Saluran",
+        "items": "Buat Saluran"
+      },
+      {
+        "key": "add_account",
+        "category": "Tambah Akun",
+        "items": "Tambah Akun"
+      },
+      {
+        "key": "delete_account",
+        "category": "Hapus Akun",
+        "items": "Hapus Akun"
+      },
+      {
+        "key": "comment_function",
+        "category": "Fungsi Komentar",
+        "items": "Fungsi Komentar"
+      },
+      {
+        "key": "bookmark",
+        "category": "Bookmark",
+        "items": "Bookmark"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "Scan QR Code",
+        "items": "Scan QR Code"
+      },
+      {
+        "key": "create_poll",
+        "category": "Buat Undian",
+        "items": "Buat Undian"
+      },
+      {
+        "key": "message_translation",
+        "category": "Penerjemahan Pesan",
+        "items": "Penerjemahan Pesan"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "Grup Percakapan",
+        "items": "Grup Percakapan"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Tema Telegram",
+        "items": "Tema Telegram"
+      },
       {
         "category": "Format Pesan",
         "key": "message_format",

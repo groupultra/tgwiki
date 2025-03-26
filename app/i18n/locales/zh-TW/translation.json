@@ -19,6 +19,10 @@
       "title": "文檔指南",
       "description": "WikiTG 使用說明和閱讀提示"
     },
+    "telegram_limit": {
+      "title": "Telegram 限制",
+      "description": "Telegram 使用限制介紹"
+    },
     "term_explanation": {
       "title": "名詞解釋",
       "description": "TG 常用的術語介紹"
@@ -42,6 +46,61 @@
   },
   "function": {
     "content": [
+      {
+        "key": "create_group",
+        "category": "開群組",
+        "items": "開群組"
+      },
+      {
+        "key": "create_channel",
+        "category": "開頻道",
+        "items": "開頻道"
+      },
+      {
+        "key": "add_account",
+        "category": "加帳號",
+        "items": "加帳號"
+      },
+      {
+        "key": "delete_account",
+        "category": "刪帳號",
+        "items": "刪帳號"
+      },
+      {
+        "key": "comment_function",
+        "category": "評論功能",
+        "items": "評論功能"
+      },
+      {
+        "key": "bookmark",
+        "category": "書籤",
+        "items": "書籤"
+      },
+      {
+        "key": "scan_qr_code",
+        "category": "掃一掃",
+        "items": "掃一掃"
+      },
+      {
+        "key": "create_poll",
+        "category": "開投票",
+        "items": "開投票"
+      },
+      {
+        "key": "message_translation",
+        "category": "訊息翻譯",
+        "items": "訊息翻譯"
+      },
+      {
+        "key": "dialogue_group",
+        "category": "對話分組",
+        "items": "對話分組"
+      },
+      {
+        "key": "telegram_theme",
+        "category": "Telegram 主題",
+        "items": "Telegram 主題"
+      },
       {
         "category": "訊息格式",
         "key": "message_format",

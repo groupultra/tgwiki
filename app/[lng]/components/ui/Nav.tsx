@@ -12,30 +12,37 @@ function NavComponent({
   paramsKey: string;
 }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const onClick = (index: number) => {
+    setSelectedIndex(index);
+  };
   return (
-    <div className="w-64 bg-grey-100 h-screen">
-      <nav>
+    <div className="w-60 bg-grey-100 h-screen border-r border-gray-200 overflow-auto">
+      <nav className="pt-3">
         <ul className="">
           {data.map((item: any, index: number) => (
             <li className={`mb-2`} key={item.key || index}>
-              <p className={`flex items-center p-2 hover:bg-gray-20`}>
+              <p
+                className={`flex items-center p-2 hover:bg-gray-20 justify-between cursor-pointer`}
+              >
                 {item.icon}
                 <span className="ml-2">{item.title}</span>
                 {item.children && item.children.length > 0 && (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 ml-auto"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
+                  <span onClick={() => onClick(index)}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
                 )}
               </p>
               {item.children && item.children.length > 0 && (
