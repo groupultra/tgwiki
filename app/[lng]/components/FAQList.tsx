@@ -43,6 +43,7 @@ const FAQList = ({ data }: { data: any }) => {
                       );
                     }}
                     onItemSelect={(item: any) => {
+                      console.log(item);
                       setDialogData({
                         title: item.title,
                         description: "",

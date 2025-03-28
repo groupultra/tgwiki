@@ -1,4 +1,4 @@
-import { BookMinus, Download, Languages, Lightbulb, Send } from "lucide-react";
+import { BookMinus, Languages, Lightbulb } from "lucide-react";
 
 /**
  * 文档指南
@@ -32,19 +32,19 @@ export const navListData = [
     isActive: false,
     hasSubmenu: false,
   },
-  {
-    key: "dc_explanation",
-    icon: <Send size={30} />,
-    isActive: false,
-    hasSubmenu: false,
-  },
+  // {
+  //   key: "dc_explanation",
+  //   icon: <Send size={30} />,
+  //   isActive: false,
+  //   hasSubmenu: false,
+  // },
 
-  {
-    key: "cache_and_download",
-    icon: <Download size={30} />,
-    isActive: false,
-    hasSubmenu: false,
-  },
+  // {
+  //   key: "cache_and_download",
+  //   icon: <Download size={30} />,
+  //   isActive: false,
+  //   hasSubmenu: false,
+  // },
   {
     key: "chinese_language_pack",
     icon: <Languages size={30} />,

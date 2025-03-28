@@ -1,24 +1,21 @@
-1.  [Home](https://tgnav.github.io/tgwiki/)
-2.  [Channel/Group Boost](https://tgnav.github.io/tgwiki/boost.html)
+## Channel/Group Boosting
 
-## Channel/Group Boost
+---
 
-* * *
-
-## [Telegram Channel/Group Boost](#telegram-channel-group-boost)
+## [Telegram Channel/Group Boosting](#telegram-channel-group-boosting)
 
 ## [More Features](#more-features)
 
-In the new version of Telegram, premium members can boost channels/groups, helping channels/groups unlock more features:
+In the new version of Telegram, premium members can boost channels/groups to unlock more features:
 
-+   Dynamic Posts
-+   Custom Colors
-+   Custom Emoji Reactions
-+   Custom Backgrounds
+- Stories
+- Custom colors
+- Custom emoji reactions
+- Custom backgrounds
 
 Tip
 
-On mobile, click the boost link and scroll down to view the complete list of features.
+On mobile, after clicking the boosting link, scroll down to view the full list of features.
 
 Interface Screenshot
 
@@ -28,47 +25,27 @@ A-boost1.jpg
 
 ## [How to Boost](#how-to-boost)
 
-+   The format of the boost link is `https://t.me/boost/` + `your channel/group link`.
-    
-+   Channel/group admins can view boost data in `More` -> `Statistics` -> `Boost`.
-    
-+   Only premium members (Telegram Premium) can boost.
-    
-+   A self-subscribed premium member has 4 boost opportunities, while a gifted premium member has 1 boost opportunity. Premium gained through giveaway events cannot be boosted.
-    
-+   Admins can increase boost opportunities through giveaway events. For every drawn premium membership, the channel/group will receive 4 boosts. For every 500 star coins drawn, the channel/group will receive 1 boost.
-    
-    Interface Screenshot
-    
-    ![A-boost2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/boost2.jpg)
-    
-    A-boost2.jpg
-    
-+   Gifting premium to others grants you 3 boost opportunities within their validity period.
-    
-+   After boosting a group, a boost icon will appear in the upper right corner of the message.
-    
+- The boosting link format is `https://t.me/boost/` + `your channel/group link`.
+- Channel/group administrators can check boosting data in `More` -> `Statistics` -> `Boost`.
+- Only premium members (Telegram Premium) can boost.
+- A self-activated premium member has 4 boosting opportunities, a gifted premium member has 1 boosting opportunity, and premium obtained through giveaway events cannot boost.
+- Administrators can enhance boosting chances through giveaways; each drawn premium member provides 4 boosts, and every 500 star coins drawn grants 1 boost.
 
-## [Boost Rules](#boost-rules)
+  Interface Screenshot
 
-+   The initial level is level 0.
-+   Each boost opportunity reaches 0.4% of the channel/group members, which increases the level by 1, with a maximum of 100 levels.
-+   Once level 1 is reached, 1 dynamic post can be published daily, at level 2, 2 dynamic posts can be published daily, and so on.
-+   At level 5, custom channel colors and message styles can be set.
-+   Level 1 can set one custom emoji reaction, level 2 can set two, and so on.
-+   At level 10, a custom channel background image can be set and displayed to subscribers.
-+   Groups may differ slightly from channels, **check the app for specific details**.
+  ![A-boost2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/boost2.jpg)
 
-[
+  A-boost2.jpg
 
-Previous Page
+- Gifting premium to others grants you 3 boosting opportunities during its validity period.
+- A boost for a group will display a boosting indicator in the upper right corner of the message.
 
-Business
+## [Boosting Rules](#boosting-rules)
 
-](https://tgnav.github.io/tgwiki/business.html)[
-
-Next Page
-
-Channel Monetization
-
-](https://tgnav.github.io/tgwiki/monetization.html)
+- The initial level is 0.
+- Boosting opportunities increase leveling by 1 for every 0.4% of channel/group members, with a maximum of 100 levels.
+- At level 1, you can post 1 story daily; at level 2, 2 stories daily, and so on.
+- At level 5, you can customize channel colors and message styles.
+- Level 1 allows setting 1 custom emoji reaction, level 2 allows 2, and so on.
+- At level 10, you can customize the channel background image and display it to subscribers.
+- Groups may differ slightly from channels; **please refer to the application for specific details**.

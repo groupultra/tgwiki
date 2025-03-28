@@ -1,13 +1,10 @@
-1.  [主页](https://tgnav.github.io/tgwiki/)
-2.  [文档指南](https://tgnav.github.io/tgwiki/guide.html)
-
 ## 文档指南
 
-* * *
+---
 
-## [TGwiki文档指南](#tgwiki文档指南)
+## [TGwiki 文档指南](#tgwiki文档指南)
 
-欢迎使用TGwiki！TGwiki汇集了Telegram的使用说明，旨在帮助用户更全面地了解Telegram的各种功能。本页是TGwiki的文档指南，向你介绍一些文档的使用技巧。
+欢迎使用 TGwiki！TGwiki 汇集了 Telegram 的使用说明，旨在帮助用户更全面地了解 Telegram 的各种功能。本页是 TGwiki 的文档指南，向你介绍一些文档的使用技巧。
 
 知识库由人为编写，难免存在一些疏漏。如果您发现了一些问题，欢迎进行补充、修改（流程见本页下方的“文档维护”）。
 
@@ -15,26 +12,21 @@
 
 为了更好地解释和示范，文档中附有`操作演示`和`界面截图`。随着时间推移，最新版界面可能会有细节差异。理论上，若没有特大界面变化，截图仍然适用。
 
-## [关于Telegram](#关于telegram)
+## [关于 Telegram](#关于telegram)
 
-Telegram（非正式简称TG、电报、纸飞机）是跨平台的即时通信软件，其客户端是自由及开放源代码软件，但服务端是专有软件。用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件。
+Telegram（非正式简称 TG、电报、纸飞机）是跨平台的即时通信软件，其客户端是自由及开放源代码软件，但服务端是专有软件。用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件。
 
-+   高度加密：使用独有的网络传输协议MTProto，无惧被黑客攻击。
-    
-+   没有审查：不用担心被封号，除非执法调查单位能证明用户是恐怖分子。
-    
-+   不占内存：聊天记录保存在云端，任何设备，无缝同步，随取随用。
-    
-    提示
-    
-    有关Telegram缓存和下载，请参阅 [此处](https://tgnav.github.io/tgwiki/download) 。
-    
-+   超大群聊：封顶 20 万人，配合各种管理工具（例如限制发言间隔），让大型社群的交流也能井井有条。
-    
-+   表情贴纸：采用高清的矢量图格式，并且支持自制表情包。
-    
-+   机器人：开放的api接口，允许开发者制作自己的机器人。
-    
+- 高度加密：使用独有的网络传输协议 MTProto，无惧被黑客攻击。
+- 没有审查：不用担心被封号，除非执法调查单位能证明用户是恐怖分子。
+- 不占内存：聊天记录保存在云端，任何设备，无缝同步，随取随用。
+
+  提示
+
+  有关 Telegram 缓存和下载，请参阅 [此处](tgwiki/download) 。
+
+- 超大群聊：封顶 20 万人，配合各种管理工具（例如限制发言间隔），让大型社群的交流也能井井有条。
+- 表情贴纸：采用高清的矢量图格式，并且支持自制表情包。
+- 机器人：开放的 api 接口，允许开发者制作自己的机器人。
 
 ## [谨防盗号](#谨防盗号)
 
@@ -42,7 +34,7 @@ Telegram（非正式简称TG、电报、纸飞机）是跨平台的即时通信�
 
 警告
 
-Telegram官方不会主动联系你！
+Telegram 官方不会主动联系你！
 
 所有管你要手机号的都是盗号！
 
@@ -50,44 +42,44 @@ Telegram官方不会主动联系你！
 
 ## [在开始之前](#在开始之前)
 
-您需要在设备上安装Telegram客户端并注册一个Telegram账号。
+您需要在设备上安装 Telegram 客户端并注册一个 Telegram 账号。
 
 提示
 
-桌面版/网页版Telegram不能用于注册，您需要使用移动设备上的Telegram客户端注册账号。
+桌面版/网页版 Telegram 不能用于注册，您需要使用移动设备上的 Telegram 客户端注册账号。
 
-附：Telegram官方应用程序下载地址
+附：Telegram 官方应用程序下载地址
 
-| 名称 | 适用系统 | 地址 |
-| --- | --- | --- |
-| Telegram for Android | Android | [官网直装版](https://telegram.org/dl/android/apk) / [Google Play](https://play.google.com/store/apps/details?id=org.telegram.messenger) |
-| Telegram for iPhone and iPad | iOS | [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807) |
-| Telegram Desktop | Windows/macOS/Linux | [官网下载](https://desktop.telegram.org/) |
-| Telegram for macOS | macOS | [官网直装版](https://telegram.org/dl/macos) / [App Store](https://apps.apple.com/us/app/telegram/id747648890) |
-| Telegram Web | *All platforms* | [旧版（K）](https://telegram.org/dl/webk) / [新版（A）](https://telegram.org/dl/weba) |
-| TDLib | *cross-platform client* | [官方介绍](https://telegram.org/blog/tdlib) / [GitHub](https://github.com/tdlib/td) |
-| Telegram X | Android | [官方频道](https://t.me/tgx_log) / [Google Play](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) |
+| 名称                         | 适用系统                | 地址                                                                                                                                    |
+| ---------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Telegram for Android         | Android                 | [官网直装版](https://telegram.org/dl/android/apk) / [Google Play](https://play.google.com/store/apps/details?id=org.telegram.messenger) |
+| Telegram for iPhone and iPad | iOS                     | [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807)                                                               |
+| Telegram Desktop             | Windows/macOS/Linux     | [官网下载](https://desktop.telegram.org/)                                                                                               |
+| Telegram for macOS           | macOS                   | [官网直装版](https://telegram.org/dl/macos) / [App Store](https://apps.apple.com/us/app/telegram/id747648890)                           |
+| Telegram Web                 | _All platforms_         | [旧版（K）](https://telegram.org/dl/webk) / [新版（A）](https://telegram.org/dl/weba)                                                   |
+| TDLib                        | _cross-platform client_ | [官方介绍](https://telegram.org/blog/tdlib) / [GitHub](https://github.com/tdlib/td)                                                     |
+| Telegram X                   | Android                 | [官方频道](https://t.me/tgx_log) / [Google Play](https://play.google.com/store/apps/details?id=org.thunderdog.challegram)               |
 
 ## [开始阅读](#开始阅读)
 
-+   初识Telegram？从 [Telegram名词解释](https://tgnav.github.io/tgwiki/term) 开始吧！
-+   想知道如何保护隐私？ [Telegram隐私设置](https://tgnav.github.io/tgwiki/privacy) 可能帮助到你。
-+   界面全是英文，看不懂？安装 [Telegram语言包](https://tgnav.github.io/tgwiki/language) ，将界面切换为中文。
-+   无法查看敏感内容？请阅读 [Telegram解除敏感内容限制](https://tgnav.github.io/tgwiki/pornios) 。
-+   无法主动私聊？[Telegram解除私聊限制](https://tgnav.github.io/tgwiki/spam) 中有详细的解决方法。
-+   收不到短信验证码？请参阅 [此处](https://tgnav.github.io/tgwiki/notcomesms) 。
+- 初识 Telegram？从 [Telegram 名词解释](tgwiki/term) 开始吧！
+- 想知道如何保护隐私？ [Telegram 隐私设置](tgwiki/privacy) 可能帮助到你。
+- 界面全是英文，看不懂？安装 [Telegram 语言包](tgwiki/language) ，将界面切换为中文。
+- 无法查看敏感内容？请阅读 [Telegram 解除敏感内容限制](tgwiki/pornios) 。
+- 无法主动私聊？[Telegram 解除私聊限制](tgwiki/spam) 中有详细的解决方法。
+- 收不到短信验证码？请参阅 [此处](tgwiki/notcomesms) 。
 
 提示
 
 侧边栏有文档目录，您可以快速定位到目标内容。
 
-[文档主页](https://tgnav.github.io/tgwiki/) 有完整的文章列表。
+[文档主页](tgwiki/) 有完整的文章列表。
 
-您可以查看 [Telegram常见问题与解答](https://tgnav.github.io/tgwiki/faq) ，希望能帮助到您。
+您可以查看 [Telegram 常见问题与解答](tgwiki/faq) ，希望能帮助到您。
 
 除此之外，您还可以通过文档的关键词搜索功能查找相关内容。
 
-*若搜索无法加载，请刷新页面重试。*
+_若搜索无法加载，请刷新页面重试。_
 
 ## [文档维护](#文档维护)
 
@@ -95,37 +87,29 @@ Telegram官方不会主动联系你！
 
 **如何参与维护文档？**
 
-+   点击对应页面下方的“编辑此页“
-+   登录GitHub账号
-+   Fork储存库，编辑文件
-+   提交Pull Request
-+   管理员审核后将推送更新
+- 点击对应页面下方的“编辑此页“
+- 登录 GitHub 账号
+- Fork 储存库，编辑文件
+- 提交 Pull Request
+- 管理员审核后将推送更新
 
 ## [参考资料](#参考资料)
 
 本文档内容搜集自以下来源，并在其基础上重新整理：
 
-+   [Telegram官方博客](https://telegram.org/blog)
-+   [Telegram Tips](https://t.me/TelegramTips)
-+   [Telegram Info](https://t.me/tginfo)
-+   [Telegram中文频道](https://t.me/tgcnz)
-+   [TG极客](https://t.me/TGgeek)
-+   [Telegram新手指南、使用教程及频道推荐](https://tingtalk.me/telegram)
+- [Telegram 官方博客](https://telegram.org/blog)
+- [Telegram Tips](https://t.me/TelegramTips)
+- [Telegram Info](https://t.me/tginfo)
+- [Telegram 中文频道](https://t.me/tgcnz)
+- [TG 极客](https://t.me/TGgeek)
+- [Telegram 新手指南、使用教程及频道推荐](https://tingtalk.me/telegram)
 
-Telegram中文社群（已满）：[@tgcnx](https://t.me/tgcnx)
+Telegram 中文社群（已满）：[@tgcnx](https://t.me/tgcnx)
 
-Telegram 中文圈2：[@tgzhcn](https://t.me/tgzhcn)
+Telegram 中文圈 2：[@tgzhcn](https://t.me/tgzhcn)
 
 ## [友情链接](#友情链接)
 
-+   [Telegram频道导航](https://tgnav.github.io/)
-+   [Telegram群组导航](https://tgnav.github.io/group)
-+   [一个东方玄学的指南](https://xuanxue.dclef.icu/)
-
-[
-
-下一页
-
-名词解释
-
-](https://tgnav.github.io/tgwiki/term.html)
+- [Telegram 频道导航]()
+- [Telegram 群组导航](group)
+- [一个东方玄学的指南](https://xuanxue.dclef.icu/)

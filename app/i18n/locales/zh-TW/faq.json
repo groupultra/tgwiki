@@ -369,20 +369,8 @@
       ]
     },
     {
-      "title": "聯繫 Telegram 支持",
-      "key": "telegram-support"
-    },
-    {
-      "title": "關注我們的 Twitter",
-      "key": "twitter"
-    },
-    {
-      "title": "Facebook",
-      "key": "facebook-or-other-platforms"
-    },
-    {
       "title": "進階 FAQ",
-      "key": "https://core.telegram.org/techfaq"
+      "key": "https://telegram-all.com/zh-TW"
     }
   ]
 }

@@ -369,20 +369,8 @@
       ]
     },
     {
-      "title": "Telegramサポートに連絡",
-      "key": "telegram-support"
-    },
-    {
-      "title": "Twitterでフォロー",
-      "key": "twitter"
-    },
-    {
-      "title": "Facebook",
-      "key": "facebook-or-other-platforms"
-    },
-    {
       "title": "上級 FAQ",
-      "key": "https://core.telegram.org/techfaq"
+      "key": "https://telegram-all.com/ja"
     }
   ]
 }

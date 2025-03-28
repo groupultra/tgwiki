@@ -369,20 +369,8 @@
       ]
     },
     {
-      "title": "Contact Telegram Support",
-      "key": "telegram-support"
-    },
-    {
-      "title": "Follow Us on Twitter",
-      "key": "twitter"
-    },
-    {
-      "title": "Facebook",
-      "key": "facebook-or-other-platforms"
-    },
-    {
       "title": "Advanced FAQ",
-      "key": "https://core.telegram.org/techfaq"
+      "key": "https://telegram-all.com/"
     }
   ]
 }

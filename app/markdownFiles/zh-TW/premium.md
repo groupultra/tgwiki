@@ -1,6 +1,3 @@
-1.  [首頁](https://tgnav.github.io/tgwiki/)
-2.  [Premium](https://tgnav.github.io/tgwiki/premium.html)
-
 ## Premium
 
 ---
@@ -15,7 +12,7 @@
 - 更快的下載速度
 - 語音消息轉為文本
 - 高級對話管理
-- 自動歸檔和靜音非聯絡人的消息
+- 自動歸檔和靜音非聯絡人消息
 - 動態頭像
 - 徽章標識
 - 專屬貼紙
@@ -29,9 +26,9 @@
 - 自定義名稱顏色和消息樣式
 - 查看全部相似頻道
 - 僅接收來自聯絡人和 Premium 用戶的消息
-- 暫時體驗 [Telegram Business](https://tgnav.github.io/tgwiki/business) 的全部功能
+- 暫時體驗 [Telegram Business](tgwiki/business) 的全部功能
 
-介面截圖
+界面截圖
 
 ![A-premium1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/premium1.jpg)
 
@@ -82,9 +79,15 @@ A-premium3.jpg
 
 - 人民幣：¥25.00/月，¥250.00/年（17%折扣）
 - 美元：$3.99/月，$28.99/年（39%折扣）
-- 支付貨幣與手機號碼關聯
+- 支付貨幣與手機號關聯
 - 需綁卡，會開啟自動續費，向 Bot 發 `/stop` 命令可關閉
-- 支付是由第三方支付平台 Smart Glocal 負責和處理的
+- 支付是由第三方支付平台 Smart Glocal 负责和处理的
 - 目前只支持外幣卡：Visa、MasterCard 等外幣卡
 - iOS/Android/Mac 商店版 App 不可用 Bot 支付
-- Android 直裝版或電腦客戶端可用
+- Android 直裝版或電腦客戶端可用 Bot 支付
+
+## [贈予會員](#贈予會員)
+
+您可以將會員作為禮品贈送給其他用戶，在其有效期內您將獲得 3 次助推機會，被贈予者會獲得 1 次助推機會。
+
+同時，頻道主也可以通過贈品活動（Giveaways）贈送

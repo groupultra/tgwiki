@@ -1,27 +1,34 @@
-const fs = require("fs");
-const path = require("path");
+import MarkdownIt from "markdown-it";
 
-// 读取文件内容
-const filePath = path.join(__dirname, "answer.md"); // 确保文件名为 faq.txt
-const content = fs.readFileSync(filePath, "utf-8");
-console.log(content);
-// 正则表达式匹配标题和内容
-const regex = /###\s\[/g;
-const matches = [...content.matchAll(regex)];
-console.log(matches);
-// // 处理匹配结果
-// const result = matches.map((match) => {
-//   const [_, key, q, a] = match;
-//   return {
-//     key,
-//     title: q,
-//     q,
-//     a: a.trim().replace(/\n/g, "\\n"), // 处理换行符
-//   };
-// });
+function extractAnswerWithMarkdownIt(markdown, questionId) {
+  const md = new MarkdownIt();
+  const tokens = md.parse(markdown, {});
 
-// // 保存为 JSON 文件
-// const outputPath = path.join(__dirname, "faq.json");
-// fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+  let found = false;
+  let answer = [];
 
-// console.log("JSON 文件已生成:", outputPath);
+  for (let i = 0; i < tokens.length; i++) {
+    if (
+      tokens[i].type === "heading_open" &&
+      tokens[i + 1]?.content.includes(`#${questionId})Q:`)
+    ) {
+      found = true;
+      i += 2; // 跳过标题
+      continue;
+    }
+    if (found) {
+      if (tokens[i].type === "heading_open") break; // 遇到下一个问题，停止
+      if (tokens[i].type === "paragraph_open")
+        answer.push(tokens[i + 1].content);
+    }
+  }
+
+  return answer.join("\n").trim();
+}
+
+console.log(
+  extractAnswerWithMarkdownIt(
+    markdownText,
+    "q-what-is-telegram-what-do-i-do-here"
+  )
+);

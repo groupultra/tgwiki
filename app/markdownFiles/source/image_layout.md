@@ -1,6 +1,3 @@
-1.  [主页](https://tgnav.github.io/tgwiki/)
-2.  [图片排版](https://tgnav.github.io/tgwiki/editphoto.html)
-
 ## 图片排版
 
 ---
@@ -50,17 +47,3 @@ A-editphoto3.jpg
 ![A-editphoto4.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/editphoto4.jpg)
 
 A-editphoto4.jpg
-
-[
-
-上一页
-
-创建投票
-
-](https://tgnav.github.io/tgwiki/poll.html)[
-
-下一页
-
-消息翻译
-
-](https://tgnav.github.io/tgwiki/translate.html)

@@ -1,11 +1,8 @@
-1.  [主页](https://tgnav.github.io/tgwiki/)
-2.  [评论功能](https://tgnav.github.io/tgwiki/comment.html)
-
 ## 评论功能
 
-* * *
+---
 
-## [Telegram频道消息添加"评论"功能](#telegram频道消息添加-评论-功能)
+## [Telegram 频道消息添加"评论"功能](#telegram频道消息添加-评论-功能)
 
 **开启方法**：`频道管理`\->`关联群组`\->`添加一个群组`
 
@@ -23,18 +20,4 @@ A-comment.jpg
 
 如果在关联群组中回复频道消息或评论消息也会同步显示在频道消息的讨论组中。
 
-此外，已关联了频道的群组中，直接回复消息也会已回复的消息为基础创建一个讨论组，右键/长按/点击回复的消息即可看到"x回复"，点击即可进入讨论组。
-
-[
-
-上一页
-
-管理群组
-
-](https://tgnav.github.io/tgwiki/managegroup.html)[
-
-下一页
-
-对话归档
-
-](https://tgnav.github.io/tgwiki/archive.html)
+此外，已关联了频道的群组中，直接回复消息也会已回复的消息为基础创建一个讨论组，右键/长按/点击回复的消息即可看到"x 回复"，点击即可进入讨论组。

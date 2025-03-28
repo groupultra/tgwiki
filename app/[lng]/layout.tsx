@@ -54,7 +54,7 @@ export default async function RootLayout({
     <html lang={lng} dir={dir(lng)} suppressHydrationWarning>
       <head />
       <body
-        className={`${inter.variable} ${poppins.variable} ${Josefinsans.variable}`}
+        className={`${inter.variable} ${poppins.variable} ${Josefinsans.variable} bg-white`}
       >
         <ThemeProvider>{children}</ThemeProvider>
       </body>

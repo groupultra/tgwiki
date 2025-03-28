@@ -22,7 +22,7 @@ export default function Breadcrubs({
     return result;
   }, [data, paramsKey]);
   return (
-    <div className="breadcrumbs text-sm">
+    <div className="breadcrumbs text-sm text-black">
       <ul>
         <li>
           <Link href={`/`}>Home</Link>

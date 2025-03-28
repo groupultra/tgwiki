@@ -26,7 +26,7 @@ export const Header = ({
   return (
     <header
       className={cn(
-        "navbar backdrop-blur justify-between fixed top-0 shadow-xs z-10",
+        "navbar backdrop-blur justify-between fixed top-0 shadow-xs z-10 text-black",
         className
       )}
       style={{

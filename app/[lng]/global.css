@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
+main {
+  --text-gradient: linear-gradient(
+    135deg,
+    rgb(216, 178, 252),
+    #000,
+    rgb(187, 213, 252)
+  );
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
 html {
   scroll-behavior: smooth;
 }

@@ -1,6 +1,3 @@
-1.  [主页](https://tgnav.github.io/tgwiki/)
-2.  [创建贴纸](https://tgnav.github.io/tgwiki/createsticker.html)
-
 ## 创建贴纸
 
 ---
@@ -78,17 +75,3 @@
 - [@fStikBot](https://t.me/fStikBot)
 - [@WuMingv2Bot](https://t.me/WuMingv2Bot)
 - [@KyStkrBot](https://t.me/KyStkrBot)
-
-[
-
-上一页
-
-Telegram 主题
-
-](https://tgnav.github.io/tgwiki/theme.html)[
-
-下一页
-
-创建机器人
-
-](https://tgnav.github.io/tgwiki/createrobot.html)

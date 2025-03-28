@@ -33,7 +33,7 @@
 TG 默认不会显示账号的注册时间，可以通过以下方式查看大致的时间，不一定准确：
 
 - 机器人查看，比如：[@creationdatebot](https://t.me/creationdatebot) [@getidsbot](https://t.me/getidsbot)
-- 第三方客户端查看。关于第三方客户端的说明请参阅 [此处](https://tgnav.github.io/tgwiki/thirdparty) 。
+- 第三方客户端查看。关于第三方客户端的说明请参阅 [此处](tgwiki/thirdparty) 。
 
 ## [好友、联系人](#好友、联系人)
 
@@ -46,7 +46,7 @@ Telegram 有"联系人"，有单向联系人和双向联系人
 - 点击对方的个人信息->添加联系人，此时添加的为单向联系人
 - 如果对方也添加你到他的联系人列表，这样才会成为双向联系人
 - 添加联系人时，务必记得取消勾选"分享我的手机号码（Share My Phone Number）"，如果不取消勾选，那对方就能看到你的电话号码
-- 如果已经添加了对方为联系人并且勾选了`分享我的手机号码（Share My Phone Number）`，可以在`设置`\->`隐私`\->`手机号码`中取消分享手机号码，请参阅 [Telegram 隐私设置](https://tgnav.github.io/tgwiki/privacy) 。
+- 如果已经添加了对方为联系人并且勾选了`分享我的手机号码（Share My Phone Number）`，可以在`设置`\->`隐私`\->`手机号码`中取消分享手机号码，请参阅 [Telegram 隐私设置](tgwiki/privacy) 。
 - 为了方便以后找人，可以添加一些常联系的人为联系人，添加联系人也可以修改对方的名称或加备注。
 - 你添加对方为联系人后, 对方不会有任何提示和通知你已添加了的, 对方也不会知道你已添加对方为联系人了
 
@@ -61,7 +61,7 @@ Telegram 有几种方式: 私聊、群组、频道、机器人
     - 如果提示"目前您只能给双向联系人发送消息"，那可能是你被官方限制了
     - 可以直接用别人的链接和搜索用户名发送私聊
 
-    参阅 [Telegram 加密对话](https://tgnav.github.io/tgwiki/encrypt) 。
+    参阅 [Telegram 加密对话](tgwiki/encrypt) 。
 
 2.  群组：也就是多人同时聊天，群主创建一个群组后，用户可以加进去，大家都可以发言聊天。曾经有"普通群"和"超级群"，不过现在创建的都是超级群，大家加入的绝大部分都是超级群，超级群最多 20W 人。群组分为：私有群和公开群、群组创建时候可以选择群组的类型（公开群组、私有群组）。
 
@@ -75,15 +75,15 @@ Telegram 有几种方式: 私聊、群组、频道、机器人
     - 群主可以在群设置中查看
     - 查看群简介界面是否有公开链接
 
-    参阅 [Telegram 创建群组](https://tgnav.github.io/tgwiki/creategroup) 。
+    参阅 [Telegram 创建群组](tgwiki/creategroup) 。
 
 3.  频道：相当于微信的公众号，只能关注和取消关注频道，只有频道主和频道管理才能在频道发布内容，成员只能查看和转发频道的内容，频道主也可设置禁止转发和复制频道内容。频道也分为：私有频道和公开频道，和群组类似，但成员无法查看频道的成员列表，只有频道主和管理员才可查看。
 
-    参阅 [Telegram 创建频道](https://tgnav.github.io/tgwiki/createchannel) 。
+    参阅 [Telegram 创建频道](tgwiki/createchannel) 。
 
 4.  频道的评论功能：是频道关联群组后的功能。
 
-    参阅 [Telegram 频道消息添加"评论"功能](https://tgnav.github.io/tgwiki/comment) 。
+    参阅 [Telegram 频道消息添加"评论"功能](tgwiki/comment) 。
 
 ## [封禁、拉黑、禁言](#封禁、拉黑、禁言)
 
