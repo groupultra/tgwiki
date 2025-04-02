@@ -1,6 +1,7 @@
 import { dir } from "i18next";
 import { ThemeProvider } from "next-themes";
 import { Inter, Josefin_Sans, Poppins } from "next/font/google";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 import { useTranslation } from "../i18n";
 import { fallbackLng, languages } from "../i18n/settings";
 import "./global.css";
@@ -56,6 +57,7 @@ export default async function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} ${Josefinsans.variable} bg-white`}
       >
+        <GoogleAnalytics />
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
