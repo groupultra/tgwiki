@@ -1,115 +1,57 @@
-## Document Guide
+# TGwiki Documentation Guide
 
----
+Welcome to TGwiki! This site is dedicated to compiling and organizing guides for using Telegram, aimed at helping you fully master the various features of Telegram.
 
-## [TGwiki Document Guide](#tgwiki-document-guide)
+This page serves as the documentation usage guide for TGwiki, which will introduce you to how to effectively browse the content of this site.
 
-Welcome to TGwiki! TGwiki gathers Telegram usage instructions, aiming to help users understand Telegram's various features more comprehensively. This page is the document guide for TGwiki, introducing you to some document usage tips.
+## Reading Tips
 
-The knowledge base is manually compiled, so there may inevitably be some omissions. If you find any issues, feel free to provide additions or modifications (see the "Document Maintenance" section at the bottom of this page for the process).
+To provide more intuitive explanations and examples, the documentation includes operational demonstration steps and interface screenshots. Please note that as Telegram versions update, the actual interface may show slight differences. Generally, unless there is a major overhaul in the interface, these screenshots still hold reference value.
 
-Tip
+## About Telegram
 
-To better explain and demonstrate, the documents include `operation demonstrations` and `interface screenshots`. Over time, the latest interface may differ in some details. In theory, unless there are significant interface changes, the screenshots should still be applicable.
+Telegram (informally known as TG, Telegram, Paper Plane) is a feature-rich, cross-platform instant messaging application. Its client software is free and open-source, while the server side is proprietary. Users can exchange highly encrypted messages through Telegram, including support for self-destructing messages, and can freely send photos, videos, and various files.
 
-## [About Telegram](#about-telegram)
+Its main features include:
 
-Telegram (informally referred to as TG, Telegram, or paper airplane) is a cross-platform instant messaging software. Its client is free and open-source software, while the server software is proprietary. Users can exchange encrypted and self-destructing messages, send photos, videos, and all types of files.
+- **High-Strength Encryption**: Employs a proprietary MTProto network protocol, effectively resisting potential network attacks.
+- **Anti-Censorship Features**: Unless law enforcement can prove the user is involved in terrorist activities, user accounts are typically not subject to censorship or banning threats.
+- **Cloud Storage and Synchronization**: All chat records are securely stored on cloud servers, supporting seamless synchronization across multiple devices, allowing access to your information anytime and anywhere without occupying too much local device space.
 
-- High Encryption: Uses a unique network transmission protocol MTProto, immune to hacker attacks.
-- No Censorship: No need to worry about account ban, unless law enforcement can prove that the user is a terrorist.
-- Does Not Take Up Memory: Chat records are stored in the cloud, syncing seamlessly across any device, accessible anytime.
-  
-  Tip
+> Tip: For more information on Telegram caching and file downloads, please refer to the dedicated article [here].
 
-  For information on Telegram caching and downloads, please refer to [here](tgwiki/download).
-  
-- Super Large Group Chats: Up to 200,000 members, equipped with various management tools (e.g., speech interval restrictions), allowing communication in large communities to be orderly.
-- Emoji Stickers: High-definition vector graphics format is used, and custom stickers are supported.
-- Bots: Open API interface allows developers to create their own bots.
+- **Large Group Capacity**: A single group can accommodate up to 200,000 members. Coupled with built-in rich management tools (such as speaking interval limitations), even super-large communities can maintain an orderly communication environment.
+- **High-Definition Vector Stickers**: Supports high-quality vector format stickers and allows users to create and share personalized sticker packs.
+- **Powerful Bot Platform**: Provides an open API interface, empowering developers to create all kinds of powerful and interactive bots.
 
-## [Beware of Account Theft](#beware-of-account-theft)
+## Beware of Account Theft Risks
 
-Recently, a large number of account theft perpetrators have emerged, so please be cautious.
+Recently, there has been a surge in account theft targeting Telegram accounts; all users must raise their vigilance.
 
-Warning
+### Important Reminders
 
-Telegram official will not contact you proactively!
+- **Telegram officials will never actively contact your account or request information!**
+- **Any request for your phone number under various pretenses is a potential account theft attempt!**
+- **Do not casually download or open unknown or suspicious files sent by unfamiliar contacts!**
 
-Anyone asking for your phone number is a thief!
+## Preparations Before Starting to Use
 
-Do not download unknown files sent by strangers lightly!
+Before reading the documentation on this site, please ensure that you have installed the Telegram client application on your device and successfully registered a Telegram account.
 
-## [Before You Start](#before-you-start)
+> **Registration Tip**: Please note that the desktop or web version of Telegram does not support new user registration. You must use the Telegram client application on a mobile device (phone or tablet) to complete the account registration process.
 
-You need to install the Telegram client on your device and register a Telegram account.
+## Appendix: Official Telegram Application Download Links
 
-Tip
+| Name | Applicable System | Address |
+|------|------------------|--------|
+| Telegram for Android | Android | [Google Play](https://play.google.com/store/appid=org.telegram.messenger) |
+| Telegram for iPhone and iPad | iOS | [App Store](https://apps.apple.com/us/app/telemessenger/id686449807) |
+| Telegram Desktop | Windows/macOS/Linux | [Download Official Site](https://desktop.telegram.org/) |
+| Telegram for macOS | macOS | [App Store](https://apps.apple.com/us/app/teleid747648890) |
+| Telegram Web | All Platforms | [New Version (A)](https://web.telegram.org/a/) |
 
-The desktop version/ web version of Telegram cannot be used for registration; you need to register an account using the Telegram client on a mobile device.
+> Click the image to view the full spreadsheet
 
-Attachment: Telegram Official Application Download Links
+## Suggested Reading Starting Point
 
-| Name                         | Applicable Systems       | Address                                                                                                                                 |
-| ---------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Telegram for Android         | Android                   | [Official Direct Installation](https://telegram.org/dl/android/apk) / [Google Play](https://play.google.com/store/apps/details?id=org.telegram.messenger) |
-| Telegram for iPhone and iPad | iOS                       | [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807)                                                               |
-| Telegram Desktop             | Windows/macOS/Linux       | [Official Website Download](https://desktop.telegram.org/)                                                                               |
-| Telegram for macOS           | macOS                     | [Official Direct Installation](https://telegram.org/dl/macos) / [App Store](https://apps.apple.com/us/app/telegram/id747648890)             |
-| Telegram Web                 | _All platforms_           | [Old Version (K)](https://telegram.org/dl/webk) / [New Version (A)](https://telegram.org/dl/weba)                                      |
-| TDLib                        | _cross-platform client_   | [Official Introduction](https://telegram.org/blog/tdlib) / [GitHub](https://github.com/tdlib/td)                                       |
-| Telegram X                   | Android                   | [Official Channel](https://t.me/tgx_log) / [Google Play](https://play.google.com/store/apps/details?id=org.thunderdog.challegram)         |
-
-## [Start Reading](#start-reading)
-
-- New to Telegram? Start with [Telegram Terminology](tgwiki/term)!
-- Want to know how to protect your privacy? [Telegram Privacy Settings](tgwiki/privacy) may help you.
-- Is the interface all in English and hard to understand? Install the [Telegram Language Pack](tgwiki/language) to switch the interface to Chinese.
-- Unable to view sensitive content? Please read [Telegram Unlocking Sensitive Content Restrictions](tgwiki/pornios).
-- Unable to initiate private chats? Detailed solutions can be found in [Telegram Unlocking Private Chat Restrictions](tgwiki/spam).
-- Not receiving SMS verification codes? Please refer to [here](tgwiki/notcomesms).
-
-Tip
-
-The sidebar has a document directory that allows you to quickly locate targeted content.
-
-The [Document Homepage](tgwiki/) has a complete list of articles.
-
-You can check the [Telegram FAQs](tgwiki/faq) hoping to assist you.
-
-In addition, you can also use the document keyword search function to find related content.
-
-_If the search fails to load, please refresh the page and try again._
-
-## [Document Maintenance](#document-maintenance)
-
-This document is open-source on [GitHub](https://github.com/tgnav/tgwiki), and anyone can assist in maintenance.
-
-**How to Participate in Document Maintenance?**
-
-- Click on "Edit this page" at the bottom of the corresponding page
-- Log in to your GitHub account
-- Fork the repository, edit the file
-- Submit a Pull Request
-- Admin will review and push updates
-
-## [References](#references)
-
-The content of this document is collected from the following sources and reorganized based on them:
-
-- [Telegram Official Blog](https://telegram.org/blog)
-- [Telegram Tips](https://t.me/TelegramTips)
-- [Telegram Info](https://t.me/tginfo)
-- [Telegram Chinese Channel](https://t.me/tgcnz)
-- [TG Geek](https://t.me/TGgeek)
-- [Telegram Beginner's Guide, Usage Tutorials and Channel Recommendations](https://tingtalk.me/telegram)
-
-Telegram Chinese Community (full): [@tgcnx](https://t.me/tgcnx)
-
-Telegram Chinese Circle 2: [@tgzhcn](https://t.me/tgzhcn)
-
-## [Links](#links)
-
-- [Telegram Channel Navigation]()
-- [Telegram Group Navigation](group)
-- [A Guide to Eastern Mysticism](https://xuanxue.dclef.icu/)
+If you are a newcomer to Telegram, it is recommended to start your exploration from the [Telegram Terminology Explanation](https://wikitg.top/zh-TW/docs/term_explanation) article to understand the basic concepts.

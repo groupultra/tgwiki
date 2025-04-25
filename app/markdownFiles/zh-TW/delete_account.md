@@ -1,13 +1,14 @@
-## 刪除帳號
+# 刪除帳號
 
----
+## 手動註銷帳號（立即生效）
 
-## [刪除帳號](#刪除帳號)
+請在瀏覽器中訪問以下鏈接： 👉 [https://my.telegram.org/auth?to=deactivate](https://my.telegram.org/auth?to=deactivate)
 
-- 手動刪除帳號，立即生效：
+輸入您的手機號碼，然後在 Telegram 應用中確認，或者使用收到的驗證碼完成操作。
 
-  用瀏覽器打開地址：[https://my.telegram.org/auth?to=deactivate](https://my.telegram.org/auth?to=deactivate) 輸入手機號碼後，在 Telegram 客戶端上確認或輸入客戶端上消息裡的驗證碼。
+## 自動註銷帳號（長期未用）
 
-- 自動刪除帳號：
+Telegram帳號若長時間未使用，會被系統自動清除。您可以選擇的閒置時長包括："1個月 / 3個月 / 6個月 / 12個月"。
 
-  Telegram 帳號長期不登入不使用會被系統自動刪除，時長可以改為"1 月/3 月/6 月/12 月"。
+⚠️ **重要提醒**：  
+一旦帳號被刪除，所有相關數據將無法恢復，請謹慎操作！

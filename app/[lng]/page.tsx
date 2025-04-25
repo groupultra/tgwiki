@@ -50,9 +50,11 @@ export default async function Page({
         <VariableProximity label={t("subtitle")} />
         <VariableProximity label={t("description")} />
         <div className="flex items-center justify-center pt-10">
+          <Link href={`/${lng}/docs/document_guide`}>
           <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-2xl bg-[#3d86c6] text-white border-0 font-normal px-10">
             {t("start")}
           </button>
+          </Link>
         </div>
       </section>
 

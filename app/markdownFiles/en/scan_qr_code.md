@@ -1,15 +1,17 @@
-## Scan QR Code
+# Scan
 
----
+## Mobile
 
-## [Telegram Scan QR Code](#telegram-scan-qrcode)
+On mobile devices, Telegram supports generating QR codes for **personal accounts, groups, channels, and bots** to facilitate quick sharing of links with others. However, the official Telegram client currently does not integrate a "scan" feature.
 
-1. Telegram on mobile can generate QR codes for personal accounts, groups, channels, and bots, making it easier to share with others; however, the Telegram client does not have a built-in "scan" feature. You can use your phone's camera with the "scan" feature, which will open the link and redirect to the Telegram client to display the relevant information.
-2. Some third-party clients have a "scan" feature; please refer to [Telegram Third-Party Clients](tgwiki/thirdparty) for more details.
-3. On the desktop version, you can log in using the "scan QR code" method, which requires you to scan with the Telegram mobile client. The mobile client feature is located in: `Settings` -> `Devices` -> `Scan QR Code`.
+If you want to open the corresponding content via QR code, you can use the camera app that comes with your phone to scan it. After scanning, it will automatically redirect you to the Telegram client and open the relevant chat or page.
 
-Screenshot
+Some third-party Telegram clients support built-in scanning functions.
 
-![A-device.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/device.jpg)
+![Scan Example](/markdown/img-5.jpeg)
 
-A-device.jpg
+## Desktop QR Code Login
+
+When logging into Telegram on a computer, you can choose to use the "Scan QR Code" option. At this time, you need to use the mobile Telegram app to scan it, with the path as follows:
+
+**Settings → Devices → Scan QR Code**

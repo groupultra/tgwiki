@@ -90,11 +90,6 @@
         "items": "Grup Dialog"
       },
       {
-        "category": "Buat Jajak Pendapat",
-        "key": "create_poll",
-        "items": "Buat Jajak Pendapat"
-      },
-      {
         "key": "telegram_theme",
         "category": "Tema Telegram",
         "items": "Tema Telegram"

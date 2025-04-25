@@ -90,11 +90,6 @@
         "items": "会話グループ"
       },
       {
-        "category": "投票作成",
-        "key": "create_poll",
-        "items": "投票作成"
-      },
-      {
         "key": "telegram_theme",
         "category": "Telegram テーマ",
         "items": "Telegram テーマ"

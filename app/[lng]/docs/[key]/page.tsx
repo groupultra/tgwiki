@@ -1,10 +1,10 @@
-import { CircleHelp, Rocket, Star } from "lucide-react";
 import { useTranslation } from "../../../i18n";
 import { fallbackLng, languages } from "../../../i18n/settings";
 import { navListData } from "../../../lib/navListData";
 import { readMk } from "../../../lib/readMk";
 import MarkdownView from "../../components/MarkdownView";
 import Breadcrumbs from "../../components/ui/Breadcrumbs";
+import DocNavigation from "../../components/ui/DocNavigation";
 import { Header } from "../../components/ui/Header";
 import NavComponent from "../../components/ui/Nav";
 export default async function Page({
@@ -44,24 +44,7 @@ export default async function Page({
       <Header
         className="sticky top-0 z-50 left-0 self-start"
         path={"/docs/" + key}
-        navData={[
-          {
-            icon: <Rocket size={20} />,
-            // @ts-ignore
-            title: t("nav.start"),
-            link: "/#quick_start",
-          },
-          {
-            icon: <Star size={20} />,
-            title: t("nav.use"),
-            link: "/#Commonly_used_functions",
-          },
-          {
-            icon: <CircleHelp size={20} />,
-            title: t("nav.FAQ"),
-            link: "/#faq",
-          },
-        ]}
+        navData={[]}
       />
       <div className="flex overflow-hidden">
         <section>
@@ -70,6 +53,7 @@ export default async function Page({
         <section className="flex-1 overflow-y-auto p-4">
           <Breadcrumbs data={slideData} paramsKey={key} />
           <MarkdownView content={mkContent} />
+          <DocNavigation data={slideData} currentKey={key} lng={lng} />
         </section>
       </div>
     </main>

@@ -1,51 +1,82 @@
-## [Conversation Groups](#对话分组)
+# Introduction to Telegram Conversation Grouping Feature
 
-Telegram supports grouping conversations to help users manage their conversation lists more efficiently.
+Telegram offers a conversation grouping feature to help users manage their chat list more clearly and efficiently.
 
-Tip
+## Client Requirements
 
-Required Telegram client versions:
+This feature is available for the following client versions and above:
 
-- iOS/Android/macOS client ≥ `6.0`
-- Windows/macOS/Linux Desktop client ≥ `2.0`
+- **iOS / Android / macOS**: Version ≥ 6.0
+- **Windows / macOS / Linux Desktop**: Version ≥ 2.0
 
-## [Grouping](#分组)
+## Grouping Settings Description
 
-You can choose which conversations and types of conversations to include or exclude, or you can combine and customize your selection of conversations.
+Users can freely choose:
 
-"Archived" conversations cannot be grouped.
+- The types of conversations to include (such as groups, channels, etc.)
+- Exclude certain types of conversations
+- Customize combinations to filter specific conversations
 
-Each group can contain a maximum of 100 conversations, and there is no limit on pinning conversations in the group list, but a maximum of 10 groups can be created.
+**Note**: Archived conversations cannot be included in any groups.
 
-[Click here to view the official blog introduction](https://telegram.org/blog/folders)
+**Limits**:
 
-For example:
+- Each group can include a maximum of **100 conversations**
+- Conversations can be pinned within each group, with no limit on the number
+- A total of up to **10 groups** can be created
 
-1. Including "Groups" means a group of all joined groups (including archived ones);
-2. Including "Channels," excluding "Archived," means a group of joined channels that does not include archived channels;
-3. Including "Groups," excluding "Archived and specified groups," means a group of joined groups that does not include archived ones and specified groups.
+📄 Click to view the [official Telegram blog introduction](https://telegram.org/blog/folders)
 
-Additionally, you can create a link to share your group (private contacts, private channels, and private groups cannot be shared). Others can directly add the group by clicking the link.
+## Examples of Grouping
 
-Operational demonstration
+- If only "groups" is checked, the group will include all group chats you have joined (including archived ones).
+- If "channels" is selected and "archived" is excluded, the group will only contain active channels.
+- You can further exclude specific groups for more precise management.
 
-![A-divide.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/divide.jpg)
+## Group Sharing Feature
 
-A-divide.jpg
+After creating a group, you can generate a shareable link (only applicable to public channels, groups, etc.; **not for contacts, private groups, or private channels**).
 
-## [How to Operate:](#操作方法)
+Other users can click the link to directly import the group's settings.
 
-- iOS/Android/macOS clients: Long press/right-click on a "Conversation" or `Settings` -> `Groups` to set up the group;
-- If you do not see the "Group" setting, [click this link to enter group settings](tg://settings/folders).
+## Group Operation Methods
 
-## [Tips](#技巧)
+**iOS / Android / macOS**: Long press or right-click on any conversation, or go through **Settings → Groups** to enter the configuration interface.
 
-- iOS/Android clients: You can long press the group name to perform "Edit Group/Reorder/Delete" operations, swipe left and right in the conversation list to switch groups. In the "Conversations" section, pull down to access the hidden "Archived Conversations"; archived conversations cannot be accessed within groups.
-- Changes to gesture operations for iOS client: Swipe right on the conversation avatar: Mark as read (mark as unread)/Pin (unpin); swipe left at the end of the conversation: Enable (disable) notifications/Delete/Archive.
-- For Android client, archiving becomes: `Conversation List` -> `Long press conversation` -> `Archive`.
-- For macOS client: You can switch groups using the shortcut Command+1/2/3/4..., and right-click on the group name for "Edit Group/Reorder/Delete" operations.
-- For Desktop client: You can switch groups using the shortcut Ctrl+1/2/3/4..., right-click on the group name for "Edit Group/Delete" operations, and drag groups to reorder.
+## Usage Tips
 
-Tip
+### Mobile Gesture Operations
 
-The number displayed on the group represents the number of conversations with messages, not the number of unread messages.
+**iOS/Android**:
+
+- Long press the group name to edit, reorder, or delete
+- Swipe left or right in the conversation list to switch between different groups
+- Pull down the chat list to access "Archived" content (but archived conversations will not appear in the groups)
+
+**iOS Exclusive Gestures**:
+
+- Swipe right on the conversation avatar: Quickly mark as read/pin
+- Swipe left on the message on the right: Enable notifications, delete, archive operations
+
+**Android**:
+
+- Long press on the conversation → Select "Archive"
+
+![Telegram Group Operation Illustration](/markdown/img-4.jpeg)
+
+### Desktop Operations
+
+**macOS**:
+
+- Use the shortcut Command + Number key (e.g., Command + 1/2/3...) to switch groups
+- Right-click on the group name to perform edit, reorder or delete operations
+
+**Windows/Linux Desktop**:
+
+- Use the shortcut Ctrl + Number key (e.g., Ctrl + 1/2/3...) to switch
+- Supports dragging groups for sorting
+- Right-click can edit or delete groups
+
+## Additional Reminder
+
+The number displayed on the right side of the group name indicates the "**number of updated conversations**," and **not the total number of unread messages**.

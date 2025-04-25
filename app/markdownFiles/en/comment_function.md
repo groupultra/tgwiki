@@ -1,23 +1,15 @@
-## Comment Feature
+# Comment Feature
 
----
+## How to Enable Channel Comment Functionality
 
-## [Adding "Comment" Feature to Telegram Channel Messages](#adding-comment-feature-to-telegram-channel-messages)
+Enter the channel settings and select **Channel Management → Associated Groups → Add Group** to complete the setup.
 
-**How to Enable**: `Channel Management` -> `Associated Group` -> `Add a Group`
+Once enabled, a "Comment" button will automatically appear below the content published in the channel, allowing users to comment on that particular message. These comments will also be synced to the associated group you have set up.
 
-Messages sent in the channel will display a "Comment" button below the message, which can be clicked to comment on the current channel message. The comments will also be displayed in the associated group.
+## Usage Tips
 
-Interface Screenshot
+Clicking "Comment" will open a **discussion page dedicated to that message**, displaying only comments related to that specific message.
 
-![A-comment.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/comment.jpg)
+In already linked groups, if you reply to a channel message or its comments, the related discussion will also be synced to the comment section corresponding to that channel message.
 
-A-comment.jpg
-
-Tips
-
-Clicking on the comment will take you to a discussion group specific to the current message, which will only display comments related to that message.
-
-If you reply to the channel message or comment message in the associated group, it will also sync and display in the discussion group for the channel message.
-
-Additionally, in groups that are already associated with the channel, directly replying to a message will create a discussion group based on the replied message. Right-click/long press/click on the replied message to see "x Reply," and clicking will take you to the discussion group.
+Additionally, if you reply directly to a message in an associated channel's group, the system will automatically create a new discussion thread based on that message. You just need to **right-click/long press/tap** on the message to see the "x replies" prompt; clicking it will take you to the discussion area for details.

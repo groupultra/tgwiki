@@ -90,11 +90,6 @@
         "items": "संवाद समूह"
       },
       {
-        "category": "मतदान बनाएँ",
-        "key": "create_poll",
-        "items": "मतदान बनाएँ"
-      },
-      {
         "key": "telegram_theme",
         "category": "टेलीग्राम थीम",
         "items": "टेलीग्राम थीम"

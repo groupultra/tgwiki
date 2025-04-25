@@ -1,3 +1,3 @@
-Hint
+Tip
 
-You can create and use your own themes in `Settings` -> `Appearance` -> `three dots in the upper right corner`.
+You can create and use your own themes in `Settings` -> `Appearance` -> `Three dots in the upper right corner`.

@@ -21,7 +21,7 @@ const cardVariants: Variants = {
 };
 const QuickBlock = ({ t, lng }: { t: any; lng: string }) => {
   return (
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-10 text-black">
+    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-black">
       {navListData.map((item, index) => {
         return (
           <motion.div

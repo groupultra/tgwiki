@@ -1,44 +1,48 @@
-## Create Poll
+# Create a Poll
 
----
+## Feature Overview
 
-## [Create Poll on Telegram](#create-poll-on-telegram)
+The Telegram official client now has a built-in "Poll" feature, supporting real-time display of the number of votes and percentages for each option, making group decision-making easier and more intuitive.
 
-## [Function Description](#function-description)
+## Tips
 
-The official Telegram client has added a "poll" feature that can show polling numbers and ratios in real-time.
+When enabling **anonymous voting**, the identities of all participants will not be disclosed.
 
-The creator can:
+## Functionality Operations Guide
 
-1.  Create a poll;
-2.  Long press/right-click to stop the poll;
-3.  Long press/right-click to withdraw the poll and vote again.
+### Actions Executable by the Poll Creator
 
-Users can:
+- Initiate a new poll
+- Use **long press (mobile) / right-click (desktop)** to stop the current poll
+- Similarly, you can use a long press or right-click to revoke the current selection and reconfigure the poll
 
-1.  Click options to vote;
-2.  Long press/right-click to withdraw the vote and vote again.
+### Actions Executable by Participants
 
-## [Create Poll](#create-poll)
+- Simply tap an option to cast your vote
+- If you want to change your selection, you can long press or right-click the current option, cancel it, and vote again
 
-- Telegram iOS: `Click the pin button in the lower left corner` -> `Poll`
-- Telegram/Telegram X Android: `Click the pin button in the lower right corner` -> `Poll`
+## How to Create a Poll
 
-  Operation demonstration
+### Telegram iOS
 
-  ![A-poll.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/poll.jpg)
+Click the **pin icon in the lower-left corner** → Select **"Poll"**
 
-  A-poll.jpg
+### Telegram / Telegram X Android
 
-- Telegram macOS: `Hover the mouse over the pin button in the lower left corner` -> `Poll`
-- Windows/macOS/Linux Desktop: `Click the more button (three dots) in the upper right corner` -> `Create Poll`
+Click the **pin icon in the lower-right corner** → Select **"Poll"**
 
-  Operation demonstration
+Interface Description:
 
-  ![D-poll.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/D/poll.jpg)
+![Poll Interface Description](/markdown/img-3.png)
 
-  D-poll.jpg
+### Telegram macOS
 
-Tip
+Hover **the mouse over the pin icon in the lower-left corner** → Select **"Poll"**
 
-If you do not see the "poll" feature, or if you are prompted "Your current version of Telegram cannot display this type of message" (This message is not supported by your version of Telegram), please upgrade your Telegram.
+### Windows / macOS / Linux Desktop Client
+
+Click the **"three-dot menu" in the upper-right corner** → Select **"Create Poll"**
+
+## Notes
+
+If you cannot find the "Poll" feature, or if the system prompts "**Your Telegram version does not support this message (This message is not supported by your version of Telegram)**," please check if you need to update the app to the latest version.

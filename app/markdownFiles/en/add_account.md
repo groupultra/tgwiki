@@ -1,28 +1,35 @@
-## Add Account
+# Telegram Multi-Account Management Guide
 
----
+Telegram allows users to easily manage multiple accounts on the same device or client and switch between them quickly without frequent logins. Here are the specific instructions for different platforms:
 
-## [Add Multiple Accounts on Telegram](#add-multiple-accounts-on-telegram)
+## iOS Client
 
-## [iOS](#ios)
+### Adding an Account
+Long press (or tap) the "Settings" button in the bottom right corner, select "Add Account" from the pop-up menu, and then enter your other phone number and verification code to complete the login. The official iOS client supports logging in to a maximum of **3** accounts simultaneously.
 
-1.  Long press or tap the `Settings` button in the bottom right corner -> `Add Account` -> log in to your account. You can log in to up to 3 accounts simultaneously.
-2.  Long press or tap the `Settings` button in the bottom right corner -> you can switch between multiple accounts directly.
+### Switching Accounts
+Similarly, long press (or tap) the "Settings" button in the bottom right corner, and the list of successfully added and logged-in accounts will be displayed. Click on the account you wish to switch to for a quick jump.
 
-## [Android](#android)
+## Android Client
 
-1.  Click the three horizontal lines in the top left corner -> click the down arrow next to your account -> `Add Account`.
-2.  Method for running the app in parallel: Android system has a built-in app cloning feature.
-3.  Some third-party clients can add more accounts; for more details, please refer to [Telegram Third-Party Clients](tgwiki/thirdparty).
+### Adding an Account
+Open the side menu in the top left corner of the screen (usually represented by three horizontal lines), click on the current account name or avatar next to the dropdown arrow, then select "Add Account" and complete the login.
 
-## [macOS](#macos)
+### Additional Multi-Account Management
+The Android system typically has a built-in **App Twin** or **App Cloning** feature, allowing you to create an independent copy of the Telegram app for logging into more accounts. Additionally, some third-party Telegram clients support adding and managing **more accounts** simultaneously. Please refer to the relevant documentation for details.
 
-1.  Right-click or left-click the `Settings` button -> `Add Account` -> log in to your account.
-2.  Right-click or left-click the `Settings` button -> you can switch between multiple accounts directly, or use multiple clients: Telegram, Telegram Desktop (Lite).
+## macOS Client
 
-## [Windows](#windows)
+### Adding and Switching Accounts
+Right-click or click the "Settings" button in the lower left corner of the main interface. You can directly choose "Add Account" from the pop-up menu to log in to a new account or quickly switch between already logged-in accounts.
 
-1.  Click the three horizontal lines in the top left corner -> click the down arrow next to your account -> `Add Account`.
-2.  Method for running the client in parallel: copy the `Telegram.exe` file from the directory to another folder; you can run as many instances as you want.
+### Multiple Client Options
+macOS users can also choose to install and run multiple different Telegram clients (such as the official Telegram and Telegram Desktop Lite) to log in and manage different accounts separately.
 
-**Note**: If one app is not enough on mobile, you can install multiple apps.
+## Windows Client
+
+### Adding an Account
+Click on the menu icon in the top left corner of the window (usually represented by three horizontal lines), click the dropdown arrow next to the current account name, and then select "Add Account" and complete the login.
+
+### Multiple Client Instances
+If you need to run multiple Telegram clients in separate windows (each window logged into one account), you can try copying the Telegram executable file (Telegram.exe) from the installation directory to different folders, and then launch the program from these different locations. In theory, it supports running multiple instances simultaneously.

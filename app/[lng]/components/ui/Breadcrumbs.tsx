@@ -1,41 +1,51 @@
 "use client";
 import Link from "next/link";
 import { useMemo } from "react";
-export default function Breadcrubs({
-  data,
-  paramsKey,
-}: {
-  data: any;
+import styles from "./Breadcrumbs.module.css";
+
+interface BreadcrumbItem {
+  key: string;
+  title: string;
+  path?: string;
+}
+
+interface BreadcrumbsProps {
+  data: Array<{
+    children?: BreadcrumbItem[];
+  }>;
   paramsKey: string;
-}) {
-  const liData = useMemo(() => {
-    const result: any = [];
-    data.map((val: any) => {
+}
+
+export default function Breadcrumbs({ data, paramsKey }: BreadcrumbsProps) {
+  const breadcrumbItems = useMemo(() => {
+    const result: BreadcrumbItem[] = [];
+    data.forEach((val) => {
       if (val.children) {
-        val.children.map((val2: any) => {
-          if (val2.key === paramsKey) {
-            result.push(val2);
+        val.children.forEach((item) => {
+          if (item.key === paramsKey) {
+            result.push(item);
           }
         });
       }
     });
     return result;
   }, [data, paramsKey]);
+
   return (
-    <div className="breadcrumbs text-sm text-black">
+    <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
       <ul>
         <li>
-          <Link href={`/`}>Home</Link>
+          <Link href="/">Home</Link>
         </li>
-        {liData.map((val: any, index: any) => (
+        {breadcrumbItems.map((item, index) => (
           <li
-            key={val?.key}
-            className={`${index === liData.length - 1 ? "text-blue-600" : ""}`}
+            key={item.key}
+            className={index === breadcrumbItems.length - 1 ? styles.active : ""}
           >
-            {val?.title}
+            {item.title}
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   );
-}
+} 

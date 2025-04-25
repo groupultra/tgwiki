@@ -1,44 +1,49 @@
-## 创建投票
+# 创建投票
 
----
+## 功能概览
 
-## [Telegram 创建投票](#telegram创建投票)
+Telegram 官方客户端现已内建"投票"功能，支持实时展示每个选项的票数及百分比，让群体决策更便捷直观。
 
-## [功能说明](#功能说明)
+## 温馨提示
 
-Telegram 客户端官方已添加"投票"功能，可以实时显示投票人数和比例。
+开启**匿名投票**时，所有参与者的身份将不会被公开。
 
-创建者可以：
+## 功能操作说明
 
-1.  创建投票；
-2.  长按/右键可以停止投票；
-3.  长按/右键可以撤回投票，重新投票。
+### 投票创建者可执行操作
 
-使用者可以：
+- 发起一个新的投票
+- 使用**长按（移动端）/右键（桌面端）**停止当前投票
+- 同样通过长按或右键，可撤销当前选择，重新进行投票设置
 
-1.  点击选项即可投票；
-2.  长按/右键可以撤回投票，重新投票。
+### 参与者可执行操作
 
-## [创建投票](#创建投票)
+- 轻触某个选项即可完成投票
+- 若想更改选择，可长按或右键当前选项，取消后重新投票
 
-- Telegram iOS：`点击左下角别针按钮`\->`投票(Poll)`
-- Telegram/Telegram X Android：`点击右下角别针按钮`\->`投票(Poll)`
+## 如何创建投票
 
-  操作演示
+### Telegram iOS
 
-  ![A-poll.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/poll.jpg)
+点击**左下角别针图标** → 选择**"投票 (Poll)"**
 
-  A-poll.jpg
+### Telegram / Telegram X Android
 
-- Telegram macOS：`鼠标停留在左下角别针按钮上`\->`投票(Poll)`
-- Windows/macOS/Linux Desktop：`点击右上角更多按钮（三个点）`\->`新建投票(Create poll)`
+点击**右下角别针图标** → 选择**"投票 (Poll)"**
 
-  操作演示
+界面说明：
 
-  ![D-poll.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/D/poll.jpg)
+![投票界面说明](/markdown/img-3.png)
 
-  D-poll.jpg
+### Telegram macOS
 
-提示
+将**鼠标移至左下角别针图标上方** → 选择**"投票 (Poll)"**
 
-如果看不到"投票"功能，或者提示”您目前的 Telegram 版本无法显示此类消息“(This message is not supported by your version of Telegram)，请升级您的 Telegram。
+### Windows / macOS / Linux 桌面客户端
+
+点击**右上角"三点菜单"** → 选择**"新建投票 (Create poll)"**
+
+## 注意事项
+
+若未能找到"投票"功能，或系统提示"**您的Telegram版本不支持该消息（This message is not supported by your version of Telegram）**"，请检查是否需要更新应用至最新版本。
+

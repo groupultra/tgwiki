@@ -90,11 +90,6 @@
         "items": "Nhóm hội thoại"
       },
       {
-        "category": "Tạo cuộc thăm dò",
-        "key": "create_poll",
-        "items": "Tạo cuộc thăm dò"
-      },
-      {
         "key": "telegram_theme",
         "category": "Chủ đề Telegram",
         "items": "Chủ đề Telegram"

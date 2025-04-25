@@ -1,25 +1,29 @@
-## Favorites
+# Bookmarks
 
----
+## Features
 
-## [Telegram Favorites](#telegram-favorites)
+- Supports real-time synchronization across multiple terminals and devices
+- Unlimited file storage capacity, supports various content types, but the maximum size for a single file is 2000MB
+- Whether it's private chat, group messages, or channel messages, you can easily save them to your "Favorites" by: **Forward → Favorites**
 
-## [Features](#features)
+## How to Access
 
-1.  Multi-platform synchronization.
-2.  Unlimited quantity, no format restrictions, but the maximum single file size is 2000MB.
-3.  Messages from private chats/groups/channels can also be stored in Favorites, `Forward` -> `Favorites`.
+You can find your "Favorites" by searching your own "username" in the chat input box on all client devices.
 
-## [How to Access](#how-to-access)
+### iOS
 
-- On all platform clients, search for your "username" in the input box to see "Favorites".
-- iOS client: `Settings` -> `Favorites`.
-- Android client: `Top left three-line menu` -> `Favorites`.
-- macOS client: `Click on search box` -> `Favorites`; Shortcut: Ctrl+0
-- Desktop client: `Top left three-line menu` -> `Click your avatar/Favorites icon`; Shortcut: Ctrl+0
+Go to **Settings → Favorites**
 
-Interface screenshot
+### Android
 
-![A-favourite.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/favourite.jpg)
+Click the **"three horizontal lines" icon in the top left corner** → **Favorites**
 
-A-favourite.jpg
+### macOS
+
+- Click the **top search box** → **Select "Favorites"**
+- Shortcut: `Ctrl+0`
+
+### Desktop
+
+- Click the **"three horizontal lines" in the top left corner** → Then click your **avatar or the Favorites icon**
+- Shortcut: `Ctrl+0`

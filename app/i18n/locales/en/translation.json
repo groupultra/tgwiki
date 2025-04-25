@@ -90,11 +90,6 @@
         "items": "Dialogue Group"
       },
       {
-        "category": "Create Poll",
-        "key": "create_poll",
-        "items": "Create Poll"
-      },
-      {
         "key": "telegram_theme",
         "category": "Telegram Theme",
         "items": "Telegram Theme"

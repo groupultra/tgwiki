@@ -1,47 +1,54 @@
-## 消息翻譯
+# Telegram 消息翻譯
 
----
+## Telegram iOS 客戶端
 
-## [Telegram 消息翻譯](#telegram消息翻譯)
+### 方法一
+適用於 Telegram for iOS ≥ v8.4
 
-本文介紹 Telegram 翻譯消息內容的方法，如果您想要翻譯客戶端介面，請使用語言包，詳情請參閱：[Telegram 語言包](tgwiki/language)。
+啟用方法：
+1. 先透過中文語言包切換語言
+2. 打開 **設置 → 語言 → 啟用"顯示翻譯按鈕"**
 
-## [Telegram iOS](#telegram-ios)
+使用方式：**長按消息 → 選擇"翻譯"**  
+⚠️ 需 iOS 15 及以上系統支持。
 
-- 方法 1：Telegram for iOS ≥v8.4 官方客戶端更新新增`消息翻譯`功能：先使用中文語言包漢化->`設定`\->`語言`\->打開`顯示翻譯按鈕`，使用方法：`長按消息`\->`翻譯` (系統要求：≥iOS 15)
-- 方法 2：使用第三方客戶端"Nicegram/iMe Messenger"App 可以翻譯消息內容，詳情請參閱： [Telegram 第三方客戶端](tgwiki/thirdparty) 。
-- 方法 3：複製消息內容到翻譯 App，比如"Google 翻譯"
+### 方法二
+使用第三方 App，如 **Nicegram / iMe Messenger**，支持內建翻譯功能。
 
-## [Telegram Android](#telegram-android)
+### 方法三
+將消息複製並粘貼至翻譯應用，如 **Google 翻譯** 進行查看。
 
-- 方法 1：Telegram for Android ≥v8.4 官方客戶端更新新增`消息翻譯`功能：`先使用中文語言包漢化`\->`設定`\->`語言`\->打開`顯示翻譯按鈕`，使用方法：`輕點消息`\->`翻譯`（使用 Google 翻譯接口）
+## Telegram Android 客戶端
 
-  操作演示
+### 方法一
+Telegram for Android ≥ v8.4
 
-  ![A-language.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/language.jpg)
+操作步驟：
+1. 設置中選擇中文語言包
+2. 進入 **設置 → 語言 → 顯示翻譯按鈕**
 
-  A-language.jpg
+翻譯方式：**點擊消息 → 翻譯**（調用 Google 翻譯接口）
 
-  ![A-translate.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/A/translate.jpg)
+### 方法二
+使用支持翻譯的客戶端（如 **Plus Messenger /Intent**）  
+點選消息 → Translate/翻譯。
 
-  A-translate.jpg
+### 方法三
+使用 Google 翻譯的"點按翻譯"功能：**打開 Google 翻譯 App → 設置 → 啟用"點按翻譯"**
 
-- 方法 2：使用第三方客戶端"Plus Messager/Nekogram"App，可以翻譯消息內容，`點擊消息`\->`Translate/翻譯`，詳情請參閱： [Telegram 第三方客戶端](tgwiki/thirdparty) 。
-- 方法 3：使用"Google 翻譯"App->`設定`\->`點按翻譯`\->`啟用`
+## Telegram macOS 客戶端
 
-## [Telegram macOS](#telegram-macos)
+適用於 Telegram for macOS ≥ v8.4，官方客戶端更新新增消息翻譯功能：
 
-方法：Telegram for macOS ≥`8.4` 官方客戶端更新新增`消息翻譯`功能：`先使用中文語言包漢化`\->`設定`\->`語言`\->打開`顯示翻譯按鈕`，然後選擇一條消息：`右鍵消息`\->`翻譯` (系統要求：≥macOS 12, 此功能調用 iOS 系統翻譯接口)
+操作步驟：
+1. 需先使用中文語言包
+2. 進入 **設置 → 語言 → 開啟翻譯按鈕**
 
-## [Telegram Desktop](#telegram-desktop)
+使用方法：**右鍵任意消息 → 翻譯**（系統需 macOS 12 及以上，調用 iOS 翻譯服務）
 
-- 方法 1：Telegram Desktop >=`4.3.2` 已支持`消息翻譯`功能：`設定`\->`語言`\->`顯示翻譯按鈕`，使用方法：`右鍵消息`\->\`Translate
-- 方法 2：使用第三方客戶端 [Unigram](https://www.microsoft.com/store/apps/9n97zckpd60q) ≥v8.4 更新新增"消息翻譯"功能：`設定`\->`語言`\->`打開"顯示翻譯按鈕"`，然後`鼠標右鍵一條消息`\->`翻譯`
-- 方法 3：使用工具方便翻譯，[點擊下載](https://github.com/zu1k/translator/releases) 。
+## 所有平台通用方式
 
-## [全平台可用方法](#全平台可用方法)
-
-使用翻譯機器人，如：
+可通過以下翻譯機器人實現快速翻譯：
 
 - [@fanyi_bot](https://t.me/fanyi_bot)
 - [@en_to_tw2_bot](https://t.me/en_to_tw2_bot)

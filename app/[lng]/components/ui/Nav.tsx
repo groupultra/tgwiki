@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 function NavComponent({
@@ -11,6 +12,7 @@ function NavComponent({
   lng: string;
   paramsKey: string;
 }) {
+  const pathname = usePathname();
   // 使用对象来跟踪每个项目的折叠状态
   const [collapsedStates, setCollapsedStates] = useState<{
     [key: number]: boolean;
@@ -23,9 +25,14 @@ function NavComponent({
     }));
   };
 
+  // 检查是否是当前页面
+  const isCurrentPage = (path: string) => {
+    return pathname === path;
+  };
+
   return (
-    <div className="w-60 bg-grey-100 h-screen border-r border-gray-200 overflow-auto text-black">
-      <nav className="pt-3">
+    <div className="w-60 bg-grey-100 h-full overflow-auto border-r border-gray-200 text-black">
+      <nav className="pt-3 ">
         <ul className="">
           {data.map((item: any, index: number) => (
             <li className={`mb-2`} key={item.key || index}>
@@ -67,16 +74,22 @@ function NavComponent({
                     collapsedStates[index] ? "max-h-0" : "max-h-[500px]"
                   }`}
                 >
-                  {item.children.map((child: any) => (
-                    <li key={child.key}>
-                      <Link
-                        href={`/${lng}/docs/${child.key}`}
-                        className="flex items-center p-2 hover:bg-gray-200"
-                      >
-                        <span className="ml-2 truncate">{child.title}</span>
-                      </Link>
-                    </li>
-                  ))}
+                  {item.children.map((child: any) => {
+                    const childPath = `/${lng}/docs/${child.key}`;
+                    const isActive = isCurrentPage(childPath);
+                    return (
+                      <li key={child.key}>
+                        <Link
+                          href={childPath}
+                          className={`flex items-center p-2 hover:bg-gray-200 ${
+                            isActive ? "bg-gray-200 font-medium" : ""
+                          }`}
+                        >
+                          <span className="ml-2 truncate">{child.title}</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               )}
             </li>

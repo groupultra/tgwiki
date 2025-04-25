@@ -1,65 +1,53 @@
-## 文檔指南
+# TGwiki 文檔指南
 
----
+歡迎來到 TGwiki！本站致力於彙總整理 Telegram 的使用指南，旨在幫助您全面掌握 Telegram 的各項功能。
 
-## [TGwiki 文檔指南](#tgwiki文檔指南)
+此頁面為 TGwiki 的文檔使用指南，將向您介紹如何有效地瀏覽本站內容。
 
-歡迎使用 TGwiki！TGwiki 彙集了 Telegram 的使用說明，旨在幫助用戶更全面地了解 Telegram 的各種功能。本頁是 TGwiki 的文檔指南，向你介紹一些文檔的使用技巧。
+## 文檔閱讀提示
 
-知識庫由人為編寫，難免存在一些疏漏。如果您發現了一些問題，歡迎進行補充、修改（流程見本頁下方的“文檔維護”）。
+為提供更直觀的說明與範例，文檔中包含操作演示步驟及界面截圖。請注意，隨著 Telegram 版本的更新，實際界面可能出現細微不同。通常情況下，除非界面發生重大改版，這些截圖仍具參考價值。
 
-提示
+## 關於 Telegram
 
-為了更好地解釋和示範，文檔中附有`操作演示`和`界面截圖`。隨著時間推移，最新版界面可能會有細節差異。理論上，若沒有特大界面變化，截圖仍然適用。
+Telegram（非正式常用名稱：TG、電報、紙飛機）是一款功能豐富的跨平台即時通訊應用程序。其客戶端軟件為自由及開放源碼性質，而伺服器端則屬於專有。用戶可通過 Telegram 進行高度加密的信息交換，包括支持自毀信息功能，並能自由發送照片、影片及各類文件。
 
-## [關於 Telegram](#關於telegram)
+其主要特色包括：
 
-Telegram（非正式簡稱 TG、電報、紙飛機）是跨平台的即時通信軟體，其客戶端是自由及開放源碼軟體，但伺服器是專有軟體。用戶可以相互交換加密與自毀消息，發送照片、影片等所有類型文件。
+- **高強度加密**：採用獨家的 MTProto 網絡協議，有效抵禦潛在的網絡攻擊。
+- **抗審查特性**：除非執法機構能證明用戶涉及恐怖活動，否則用戶帳號通常不受審查或封禁威脅。
+- **雲端存儲與同步**：所有聊天記錄安全存儲於雲端伺服器，支持多設備間的無縫同步，隨時隨地存取您的信息，不佔用本地設備過多空間。
 
-- 高度加密：使用獨有的網路傳輸協議 MTProto，無懼被駭客攻擊。
-- 沒有審查：不用擔心被封號，除非執法調查單位能證明用戶是恐怖分子。
-- 不佔內存：聊天記錄保存在雲端，任何設備，無縫同步，隨取隨用。
+> 提示：關於 Telegram 緩存和文件下載的更多信息，請參閱[此處]的專門文章。
 
-  提示
+- **龐大群組容量**：單一群組最高可容納達 20 萬名成員。配合內建的豐富管理工具（如發言間隔限制），即使是超大型社群也能維持有序的交流環境。
+- **高清矢量貼圖**：支持高畫質矢量格式的表情貼圖，並允許用戶自行製作與分享個人化的貼圖包。
+- **強大的機器人平台**：提供開放的 API 接口，賦予開發者創造各類功能強大、互動性高的機器人的能力。
 
-  有關 Telegram 快取和下載，請參閱 [此處](tgwiki/download) 。
+## 警惕帳號盜竊風險
 
-- 超大群聊：封頂 20 萬人，配合各種管理工具（例如限制發言間隔），讓大型社群的交流也能井井有條。
-- 表情貼圖：採用高清的矢量圖格式，並且支持自製表情包。
-- 機器人：開放的 api 接口，允許開發者製作自己的機器人。
+近期出現大量針對 Telegram 帳號的盜竊行為，請所有用戶務必提高警覺。
 
-## [謹防盜號](#謹防盜號)
+### 重要提醒
 
-近期大量盜號分子出現，請大家務必小心。
+- **Telegram 官方人員絕不會主動聯繫您的帳號或索取信息！**
+- **任何以各種名義向您索要手機號碼的行為，均為潛在的盜號企圖！**
+- **切勿隨意下載或打開陌生聯絡人發送的未知或可疑文件！**
 
-警告
+## 開始使用前準備
 
-Telegram 官方不會主動聯絡你！
+在閱讀本站文檔前，請確保您已在您的設備上安裝 Telegram 客戶端應用程序，並成功註冊一個 Telegram 帳號。
 
-所有管你要手機號的都是盜號！
+> **註冊提示**：請注意，目前 Telegram 的桌面版或網頁版應用不支持新用戶註冊功能。您必須使用移動設備（手機或平板）上的 Telegram 客戶端應用來完成帳號註冊過程。
 
-陌生人發的未知文件不要輕易下載！
+## 附錄：官方 Telegram 應用程序下載鏈接
 
-## [在開始之前](#在開始之前)
+| 名稱 | 適用系統 | 地址 |
+|------|----------|------|
+| Telegram for Android | Android | [Google Play](https://play.google.com/store/appid=org.telegram.messenger) |
+| Telegram for iPhone and iPad | iOS | [App Store](https://apps.apple.com/us/app/telemessenger/id686449807) |
+| Telegram Desktop | Windows/macOS/Linux | [下載官網](https://desktop.telegram.org/) |
+| Telegram for macOS | macOS | [App Store](https://apps.apple.com/us/app/teleid747648890) |
+| Telegram Web | 所有平台 | [新版(A)](https://web.telegram.org/a/) |
 
-您需要在設備上安裝 Telegram 客戶端並註冊一個 Telegram 帳號。
-
-提示
-
-桌面版/網頁版 Telegram 不能用於註冊，您需要使用移動設備上的 Telegram 客戶端註冊帳號。
-
-附：Telegram 官方應用程式下載地址
-
-| 名稱                         | 適用系統                | 地址                                                                                                                                    |
-| ---------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Telegram for Android         | Android                 | [官網直裝版](https://telegram.org/dl/android/apk) / [Google Play](https://play.google.com/store/apps/details?id=org.telegram.messenger) |
-| Telegram for iPhone and iPad | iOS                     | [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807)                                                               |
-| Telegram Desktop             | Windows/macOS/Linux     | [下載官網](https://desktop.telegram.org/)                                                                                               |
-| Telegram for macOS           | macOS                   | [官網直裝版](https://telegram.org/dl/macos) / [App Store](https://apps.apple.com/us/app/telegram/id747648890)                           |
-| Telegram Web                 | _所有平台_             | [舊版（K）](https://telegram.org/dl/webk) / [新版（A）](https://telegram.org/dl/weba)                                                   |
-| TDLib                        | _跨平台客戶端_         | [官方介紹](https://telegram.org/blog/tdlib) / [GitHub](https://github.com/tdlib/td)                                                     |
-| Telegram X                   | Android                 | [官方頻道](https://t.me/tgx_log) / [Google Play](https://play.google.com/store/apps/details?id=org.thunderdog.challegram)               |
-
-## [開始閱讀](#開始閱讀)
-
-- 初識 Telegram？從 [Telegram 名詞解釋](
+> 點擊圖片可查看完整電子表格
