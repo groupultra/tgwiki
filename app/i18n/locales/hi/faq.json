@@ -1,376 +1,104 @@
 {
   "content": [
     {
-      "title": "सामान्य प्रश्न",
+      "title": "一般性问题",
       "key": "general-questions",
       "children": [
         {
-          "key": "q-what-is-telegram-what-do-i-do-here",
-          "title": "Telegram क्या है? यहाँ मुझे क्या करना चाहिए?"
+          "key": "heading_1",
+          "title": "Telegram 会处理用户数据请求吗？"
         },
         {
-          "key": "q-who-is-telegram-for",
-          "title": "यह किसके लिए है?"
+          "key": "heading_2",
+          "title": "Telegram 是否接受删除内容的请求？"
         },
         {
-          "key": "q-how-is-telegram-different-from-whatsapp",
-          "title": "WhatsApp से यह कैसे अलग है?"
+          "key": "heading_3",
+          "title": "Telegram 如何遵守 GDPR（欧盟通用数据保护条例）？"
         },
         {
-          "key": "q-how-old-is-telegram",
-          "title": "Telegram कितनी पुरानी है?"
+          "key": "heading_4",
+          "title": "Telegram 对网络隐私持何种态度？"
         },
         {
-          "key": "q-which-devices-can-i-use",
-          "title": "क्या यह मेरे डिवाइस पर उपलब्ध है?"
+          "key": "heading_5",
+          "title": "Telegram 的盈利模式是什么？"
         },
         {
-          "key": "q-who-are-the-people-behind-telegram",
-          "title": "Telegram के पीछे के लोग कौन हैं?"
+          "key": "heading_6",
+          "title": "Telegram 的总部在哪里？"
         },
         {
-          "key": "q-where-is-telegram-based",
-          "title": "Telegram कहाँ स्थित है?"
+          "key": "heading_7",
+          "title": "Telegram 背后的团队由哪些人组成？"
         },
         {
-          "key": "q-how-are-you-going-to-make-money-out-of-this",
-          "title": "आप पैसे कैसे कमाते हैं?"
+          "key": "heading_8",
+          "title": "Telegram 支持哪些设备？"
         },
         {
-          "key": "q-what-are-your-thoughts-on-internet-privacy",
-          "title": "इंटरनेट गोपनीयता पर आपके विचार क्या हैं?"
+          "key": "heading_9",
+          "title": "Telegram 是从什么时候开始运营的？"
         },
         {
-          "key": "q-what-about-gdpr",
-          "title": "GDPR के बारे में?"
+          "key": "heading_10",
+          "title": "Telegram 与 WhatsApp 有哪些主要区别？"
         },
         {
-          "key": "q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down",
-          "title": "क्या आप हटाने के अनुरोध संसाधित करते हैं?"
+          "key": "heading_11",
+          "title": "Telegram 适合哪些人使用？"
         },
         {
-          "key": "q-do-you-process-data-requests",
-          "title": "क्या आप डेटा अनुरोध संसाधित करते हैं?"
+          "key": "heading_12",
+          "title": "Telegram 是什么？"
         }
       ]
     },
     {
-      "title": "Telegram मूल बातें",
+      "title": "Telegram基础问题",
       "key": "telegram-basics",
       "children": [
         {
-          "key": "q-who-can-i-write-to",
-          "title": "मैं किसे संदेश भेज सकता हूँ?"
+          "key": "heading_14",
+          "title": "如何在 Telegram 中使用表情符号？"
         },
         {
-          "key": "q-who-can-contact-me",
-          "title": "मुझे कौन संदेश भेज सकता है?"
+          "key": "heading_15",
+          "title": "Telegram 可以打电话吗？"
         },
         {
-          "key": "q-does-telegram-send-verification-codes-for-other-apps",
-          "title": "क्या Telegram अन्य ऐप्स के लिए सत्यापन कोड भेजता है?"
+          "key": "heading_16",
+          "title": "如何删除我的聊天记录或消息？"
         },
         {
-          "key": "q-how-do-i-know-who-in-my-contacts-has-telegram",
-          "title": "Telegram का उपयोग कौन करता है?"
+          "key": "heading_17",
+          "title": "谁可以看到我是否在线？"
         },
         {
-          "key": "q-how-do-i-invite-my-friends",
-          "title": "दोस्तों को आमंत्रित करना"
+          "key": "heading_18",
+          "title": "我可以隐藏我的\"最后上线\"时间吗？"
         },
         {
-          "key": "q-what-do-the-check-marks-mean",
-          "title": "Telegram में चेक मार्क्स का क्या अर्थ है?"
+          "key": "heading_19",
+          "title": "Telegram 消息旁边的绿色对勾表示什么？"
         },
         {
-          "key": "q-can-i-hide-my-last-seen-time",
-          "title": "क्या मैं अपना 'अंतिम देखा गया' छिपा सकता हूँ?"
+          "key": "heading_20",
+          "title": "如何邀请朋友加入 Telegram？"
         },
         {
-          "key": "q-who-can-see-me-39online-39",
-          "title": "मुझे 'ऑनलाइन' कौन देख सकता है?"
+          "key": "heading_21",
+          "title": "如何知道谁在使用 Telegram？"
         },
         {
-          "key": "q-can-i-delete-my-messages",
-          "title": "क्या मैं अपने संदेश हटा सकता हूँ?"
+          "key": "heading_22",
+          "title": "谁可以给我发送消息？"
         },
         {
-          "key": "q-can-i-make-calls-via-telegram",
-          "title": "वॉयस, वीडियो और समूह कॉल"
-        },
-        {
-          "key": "q-how-can-i-use-emoticons",
-          "title": "इमोटिकॉन्स का उपयोग"
+          "key": "heading_23",
+          "title": "我可以联系谁？"
         }
       ]
-    },
-    {
-      "title": "समूह और चैनल",
-      "key": "groups-and-channels",
-      "children": [
-        {
-          "key": "q-what-makes-telegram-groups-cool",
-          "title": "Telegram समूहों को क्या खास बनाता है?"
-        },
-        {
-          "key": "q-what-39s-the-difference-between-groups-and-channels",
-          "title": "चैनल और समूह में क्या अंतर है?"
-        },
-        {
-          "key": "q-how-do-i-create-a-group",
-          "title": "समूह बनाना"
-        },
-        {
-          "key": "q-how-do-i-add-more-members-what-39s-an-invite-link",
-          "title": "सदस्यों को जोड़ना और आमंत्रण लिंक का उपयोग करना"
-        }
-      ]
-    },
-    {
-      "title": "यूजरनेम और t.me",
-      "key": "usernames-and-t-me",
-      "children": [
-        {
-          "key": "q-what-are-usernames-how-do-i-get-one",
-          "title": "यूजरनेम क्या हैं? मैं इन्हें कैसे प्राप्त कर सकता हूँ?"
-        },
-        {
-          "key": "q-what-are-collectible-usernames-how-are-they-different-from-bas",
-          "title": "कलेक्टिबल यूजरनेम क्या हैं? ये सामान्य यूजरनेम से कैसे अलग हैं?"
-        },
-        {
-          "key": "q-how-does-t-me-work",
-          "title": "t.me कैसे काम करता है?"
-        },
-        {
-          "key": "q-what-can-i-use-as-my-username",
-          "title": "मैं अपने यूजरनेम के रूप में क्या उपयोग कर सकता हूँ?"
-        },
-        {
-          "key": "q-do-i-need-a-username",
-          "title": "क्या मुझे यूजरनेम की आवश्यकता है?"
-        },
-        {
-          "key": "q-if-someone-finds-me-by-username-messages-and-i-reply-will-they",
-          "title": "क्या लोग मेरा नंबर जानेंगे?"
-        },
-        {
-          "key": "q-how-do-i-delete-my-username",
-          "title": "मैं अपना यूजरनेम कैसे हटा सकता हूँ?"
-        },
-        {
-          "key": "q-what-do-i-do-if-my-username-is-taken",
-          "title": "यदि मेरा यूजरनेम ले लिया गया है तो मैं क्या करूँ?"
-        },
-        {
-          "key": "q-what-if-someone-is-pretending-to-be-me",
-          "title": "अगर कोई मेरी नकल कर रहा है तो?"
-        }
-      ]
-    },
-    {
-      "title": "सुरक्षा",
-      "key": "security",
-      "children": [
-        {
-          "key": "q-how-secure-is-telegram",
-          "title": "Telegram कितना सुरक्षित है?"
-        },
-        {
-          "key": "q-so-how-do-you-encrypt-data",
-          "title": "आप डेटा को कैसे एन्क्रिप्ट करते हैं?"
-        },
-        {
-          "key": "q-why-should-i-trust-you",
-          "title": "मुझे आप पर क्यों भरोसा करना चाहिए?"
-        },
-        {
-          "key": "q-do-i-need-to-trust-telegram-for-this-to-be-secure",
-          "title": "क्या सुरक्षित होने के लिए मुझे Telegram पर भरोसा करना होगा?"
-        },
-        {
-          "key": "q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes",
-          "title": "अगर मेरा हैकर दोस्त आप पर संदेह करता है तो?"
-        },
-        {
-          "key": "q-can-telegram-protect-me-against-everything",
-          "title": "क्या Telegram मुझे हर चीज़ से बचा सकता है?"
-        },
-        {
-          "key": "q-how-does-2-step-verification-work",
-          "title": "दो-चरण सत्यापन कैसे काम करता है?"
-        }
-      ]
-    },
-    {
-      "title": "गुप्त चैट",
-      "key": "secret-chats",
-      "children": [
-        {
-          "key": "q-how-are-secret-chats-different",
-          "title": "एक _गुप्त चैट_ क्या है?"
-        },
-        {
-          "key": "q-how-do-i-start-a-secret-chat",
-          "title": "गुप्त चैट शुरू करना"
-        },
-        {
-          "key": "q-how-do-self-destructing-messages-work",
-          "title": "सेल्फ-डिस्ट्रक्ट टाइमर का उपयोग करना"
-        },
-        {
-          "key": "q-can-i-be-certain-that-my-conversation-partner-doesn-39t-take-a",
-          "title": "स्क्रीनशॉट अलर्ट"
-        },
-        {
-          "key": "q-what-is-this-39encryption-key-39-thing",
-          "title": "एन्क्रिप्शन की तस्वीर"
-        },
-        {
-          "key": "q-why-not-just-make-all-chats-39secret-39",
-          "title": "सभी चैट्स को 'गुप्त' क्यों नहीं बनाते?"
-        }
-      ]
-    },
-    {
-      "title": "आपका खाता",
-      "key": "your-account",
-      "children": [
-        {
-          "key": "q-who-can-see-my-phone-number",
-          "title": "मेरा फोन नंबर कौन देख सकता है?"
-        },
-        {
-          "key": "q-i-have-a-new-phone-number-what-do-i-do",
-          "title": "मेरे पास नया फोन नंबर है, मैं क्या करूँ?"
-        },
-        {
-          "key": "q-how-do-i-log-out",
-          "title": "Telegram से लॉग आउट करें"
-        },
-        {
-          "key": "q-how-do-i-change-my-phone-number",
-          "title": "अपना फोन नंबर बदलें"
-        },
-        {
-          "key": "q-how-do-i-delete-my-account",
-          "title": "अपना Telegram खाता हटाएं"
-        },
-        {
-          "key": "q-how-does-account-self-destruction-work",
-          "title": "खाता सेल्फ-डिस्ट्रक्शन कैसे काम करता है?"
-        },
-        {
-          "key": "q-my-phone-was-stolen-what-do-i-do",
-          "title": "मेरा फोन चोरी हो गया, मैं क्या करूँ?"
-        }
-      ]
-    },
-    {
-      "title": "बॉट",
-      "key": "bots",
-      "children": [
-        {
-          "key": "q-how-do-i-create-a-bot",
-          "title": "मैं बॉट कैसे बना सकता हूँ?"
-        },
-        {
-          "key": "q-a-bot-is-sending-me-messages-how-do-i-make-it-stop",
-          "title": "मैं बॉट से कैसे छुटकारा पा सकता हूँ?"
-        },
-        {
-          "key": "q-are-bots-safe",
-          "title": "क्या बॉट सुरक्षित हैं?"
-        },
-        {
-          "key": "q-where-can-i-find-more-bots",
-          "title": "मुझे और बॉट कहाँ मिल सकते हैं?"
-        }
-      ]
-    },
-    {
-      "title": "गहन प्रश्न",
-      "key": "deeper-questions",
-      "children": [
-        {
-          "key": "q-can-i-get-telegram-39s-server-side-code",
-          "title": "क्या मैं Telegram का सर्वर-साइड कोड प्राप्त कर सकता हूँ?"
-        },
-        {
-          "key": "q-can-i-run-telegram-using-my-own-server",
-          "title": "क्या मैं अपना स्वयं का सर्वर इस्तेमाल कर सकता हूँ?"
-        },
-        {
-          "key": "q-can-i-use-the-telegram-api",
-          "title": "क्या मैं Telegram API का उपयोग कर सकता हूँ?"
-        },
-        {
-          "key": "q-do-you-have-a-privacy-policy",
-          "title": "क्या आपकी गोपनीयता नीति है?"
-        },
-        {
-          "key": "q-what-does-the-ios-privacy-sheet-mean",
-          "title": "iOS गोपनीयता शीट का क्या अर्थ है?"
-        },
-        {
-          "key": "q-why-do-you-have-two-apps-in-the-mac-app-store",
-          "title": "Mac App Store में आपके दो ऐप्स क्यों हैं?"
-        },
-        {
-          "key": "q-can-i-translate-telegram",
-          "title": "क्या मैं Telegram का अनुवाद कर सकता हूँ?"
-        },
-        {
-          "key": "q-can-i-help",
-          "title": "क्या मैं मदद कर सकता हूँ?"
-        }
-      ]
-    },
-    {
-      "title": "समस्या निवारण",
-      "key": "troubleshooting",
-      "children": [
-        {
-          "key": "login-and-sms",
-          "title": "SMS, लॉगिन, रजिस्टर"
-        },
-        {
-          "key": "getting-a-code-via-a-phone-call",
-          "title": "फोन कॉल के माध्यम से लॉगिन कोड प्राप्त करना"
-        },
-        {
-          "key": "getting-a-code-via-telegram",
-          "title": "Telegram के माध्यम से कोड प्राप्त करना"
-        },
-        {
-          "key": "notification-problems",
-          "title": "सूचना संबंधी समस्याएँ"
-        },
-        {
-          "key": "problems-with-contacts",
-          "title": "संपर्कों के साथ समस्याएँ"
-        },
-        {
-          "key": "deleting-contacts-on-android",
-          "title": "Android पर संपर्क हटाना"
-        },
-        {
-          "key": "where-did-my-secret-chat-messages-go",
-          "title": "गुप्त चैट"
-        },
-        {
-          "key": "can-39t-send-messages-to-non-contacts",
-          "title": "गैर-संपर्कों को संदेश नहीं भेज सकते"
-        },
-        {
-          "key": "telegram-uses-the-camera-or-microphone-in-the-background",
-          "title": "Telegram बैकग्राउंड में कैमरा या माइक्रोफोन का उपयोग करता है"
-        }
-      ]
-    },
-    {
-      "title": "उन्नत FAQ",
-      "key": "https://telegram-all.com/hi"
     }
   ]
 }

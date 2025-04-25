@@ -42,16 +42,16 @@ const FAQList = ({ data }: { data: any }) => {
                         </div>
                       );
                     }}
-                    onItemSelect={(item: any) => {
-                      console.log(item);
-                      setDialogData({
-                        title: item.title,
-                        description: "",
-                      });
-                      (
-                        document?.getElementById("faq_dialog") as any
-                      )?.showModal();
-                    }}
+                    // onItemSelect={(item: any) => {
+                    //   console.log(item);
+                    //   setDialogData({
+                    //     title: item.title,
+                    //     description: "",
+                    //   });
+                    //   (
+                    //     document?.getElementById("faq_dialog") as any
+                    //   )?.showModal();
+                    // }}
                     showGradients={true}
                     enableArrowNavigation={true}
                     displayScrollbar={true}

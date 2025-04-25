@@ -1,376 +1,104 @@
 {
   "content": [
     {
-      "title": "General",
+      "title": "一般性问题",
       "key": "general-questions",
       "children": [
         {
-          "key": "q-what-is-telegram-what-do-i-do-here",
-          "title": "What is Telegram? What do I do here?"
+          "key": "heading_1",
+          "title": "Telegram 会处理用户数据请求吗？"
         },
         {
-          "key": "q-who-is-telegram-for",
-          "title": "Who is it for?"
+          "key": "heading_2",
+          "title": "Telegram 是否接受删除内容的请求？"
         },
         {
-          "key": "q-how-is-telegram-different-from-whatsapp",
-          "title": "How is it different from WhatsApp?"
+          "key": "heading_3",
+          "title": "Telegram 如何遵守 GDPR（欧盟通用数据保护条例）？"
         },
         {
-          "key": "q-how-old-is-telegram",
-          "title": "How old is Telegram?"
+          "key": "heading_4",
+          "title": "Telegram 对网络隐私持何种态度？"
         },
         {
-          "key": "q-which-devices-can-i-use",
-          "title": "Is it available on my device?"
+          "key": "heading_5",
+          "title": "Telegram 的盈利模式是什么？"
         },
         {
-          "key": "q-who-are-the-people-behind-telegram",
-          "title": "Who are the people behind Telegram?"
+          "key": "heading_6",
+          "title": "Telegram 的总部在哪里？"
         },
         {
-          "key": "q-where-is-telegram-based",
-          "title": "Where is Telegram based?"
+          "key": "heading_7",
+          "title": "Telegram 背后的团队由哪些人组成？"
         },
         {
-          "key": "q-how-are-you-going-to-make-money-out-of-this",
-          "title": "How do you make money?"
+          "key": "heading_8",
+          "title": "Telegram 支持哪些设备？"
         },
         {
-          "key": "q-what-are-your-thoughts-on-internet-privacy",
-          "title": "What are your thoughts on internet privacy?"
+          "key": "heading_9",
+          "title": "Telegram 是从什么时候开始运营的？"
         },
         {
-          "key": "q-what-about-gdpr",
-          "title": "What about GDPR?"
+          "key": "heading_10",
+          "title": "Telegram 与 WhatsApp 有哪些主要区别？"
         },
         {
-          "key": "q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down",
-          "title": "Do you process takedown requests?"
+          "key": "heading_11",
+          "title": "Telegram 适合哪些人使用？"
         },
         {
-          "key": "q-do-you-process-data-requests",
-          "title": "Do you process data requests?"
+          "key": "heading_12",
+          "title": "Telegram 是什么？"
         }
       ]
     },
     {
-      "title": "Telegram Basics",
+      "title": "Telegram基础问题",
       "key": "telegram-basics",
       "children": [
         {
-          "key": "q-who-can-i-write-to",
-          "title": "Who can I message?"
+          "key": "heading_14",
+          "title": "如何在 Telegram 中使用表情符号？"
         },
         {
-          "key": "q-who-can-contact-me",
-          "title": "Who can message me?"
+          "key": "heading_15",
+          "title": "Telegram 可以打电话吗？"
         },
         {
-          "key": "q-does-telegram-send-verification-codes-for-other-apps",
-          "title": "Does Telegram send Verification Codes for other apps?"
+          "key": "heading_16",
+          "title": "如何删除我的聊天记录或消息？"
         },
         {
-          "key": "q-how-do-i-know-who-in-my-contacts-has-telegram",
-          "title": "Who has Telegram?"
+          "key": "heading_17",
+          "title": "谁可以看到我是否在线？"
         },
         {
-          "key": "q-how-do-i-invite-my-friends",
-          "title": "Inviting friends"
+          "key": "heading_18",
+          "title": "我可以隐藏我的\"最后上线\"时间吗？"
         },
         {
-          "key": "q-what-do-the-check-marks-mean",
-          "title": "What do the check marks mean in Telegram?"
+          "key": "heading_19",
+          "title": "Telegram 消息旁边的绿色对勾表示什么？"
         },
         {
-          "key": "q-can-i-hide-my-last-seen-time",
-          "title": "Can I hide my 'last seen'?"
+          "key": "heading_20",
+          "title": "如何邀请朋友加入 Telegram？"
         },
         {
-          "key": "q-who-can-see-me-39online-39",
-          "title": "Who can see me 'online'?"
+          "key": "heading_21",
+          "title": "如何知道谁在使用 Telegram？"
         },
         {
-          "key": "q-can-i-delete-my-messages",
-          "title": "Can I delete my messages?"
+          "key": "heading_22",
+          "title": "谁可以给我发送消息？"
         },
         {
-          "key": "q-can-i-make-calls-via-telegram",
-          "title": "Voice, Video and Group calls"
-        },
-        {
-          "key": "q-how-can-i-use-emoticons",
-          "title": "Using emoticons"
+          "key": "heading_23",
+          "title": "我可以联系谁？"
         }
       ]
-    },
-    {
-      "title": "Groups and Channels",
-      "key": "groups-and-channels",
-      "children": [
-        {
-          "key": "q-what-makes-telegram-groups-cool",
-          "title": "What makes Telegram groups cool?"
-        },
-        {
-          "key": "q-what-39s-the-difference-between-groups-and-channels",
-          "title": "How are channels and groups different?"
-        },
-        {
-          "key": "q-how-do-i-create-a-group",
-          "title": "Creating a group"
-        },
-        {
-          "key": "q-how-do-i-add-more-members-what-39s-an-invite-link",
-          "title": "Adding members and using Invite Links"
-        }
-      ]
-    },
-    {
-      "title": "Usernames and t.me",
-      "key": "usernames-and-t-me",
-      "children": [
-        {
-          "key": "q-what-are-usernames-how-do-i-get-one",
-          "title": "What are usernames? How do I get one?"
-        },
-        {
-          "key": "q-what-are-collectible-usernames-how-are-they-different-from-bas",
-          "title": "What are Collectible Usernames? How are they different from basic usernames?"
-        },
-        {
-          "key": "q-how-does-t-me-work",
-          "title": "How does t.me work?"
-        },
-        {
-          "key": "q-what-can-i-use-as-my-username",
-          "title": "What can I use as my username?"
-        },
-        {
-          "key": "q-do-i-need-a-username",
-          "title": "Do I need a username?"
-        },
-        {
-          "key": "q-if-someone-finds-me-by-username-messages-and-i-reply-will-they",
-          "title": "Will people know my number?"
-        },
-        {
-          "key": "q-how-do-i-delete-my-username",
-          "title": "How do I delete my username?"
-        },
-        {
-          "key": "q-what-do-i-do-if-my-username-is-taken",
-          "title": "What do I do if my username is taken?"
-        },
-        {
-          "key": "q-what-if-someone-is-pretending-to-be-me",
-          "title": "What if someone is pretending to be me?"
-        }
-      ]
-    },
-    {
-      "title": "Security",
-      "key": "security",
-      "children": [
-        {
-          "key": "q-how-secure-is-telegram",
-          "title": "How secure is Telegram?"
-        },
-        {
-          "key": "q-so-how-do-you-encrypt-data",
-          "title": "How do you encrypt data?"
-        },
-        {
-          "key": "q-why-should-i-trust-you",
-          "title": "Why should I trust you?"
-        },
-        {
-          "key": "q-do-i-need-to-trust-telegram-for-this-to-be-secure",
-          "title": "Do I need to trust Telegram for it to be secure?"
-        },
-        {
-          "key": "q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes",
-          "title": "What if my hacker friend doubts you?"
-        },
-        {
-          "key": "q-can-telegram-protect-me-against-everything",
-          "title": "Can Telegram protect me against everything?"
-        },
-        {
-          "key": "q-how-does-2-step-verification-work",
-          "title": "How does 2-Step Verification work?"
-        }
-      ]
-    },
-    {
-      "title": "Secret Chats",
-      "key": "secret-chats",
-      "children": [
-        {
-          "key": "q-how-are-secret-chats-different",
-          "title": "What is a _secret chat?_"
-        },
-        {
-          "key": "q-how-do-i-start-a-secret-chat",
-          "title": "Starting a secret chat"
-        },
-        {
-          "key": "q-how-do-self-destructing-messages-work",
-          "title": "Using the self-destruct timer"
-        },
-        {
-          "key": "q-can-i-be-certain-that-my-conversation-partner-doesn-39t-take-a",
-          "title": "Screenshot alerts"
-        },
-        {
-          "key": "q-what-is-this-39encryption-key-39-thing",
-          "title": "Encryption key picture"
-        },
-        {
-          "key": "q-why-not-just-make-all-chats-39secret-39",
-          "title": "Why not make all chats 'secret'?"
-        }
-      ]
-    },
-    {
-      "title": "Your Account",
-      "key": "your-account",
-      "children": [
-        {
-          "key": "q-who-can-see-my-phone-number",
-          "title": "Who can see my phone number?"
-        },
-        {
-          "key": "q-i-have-a-new-phone-number-what-do-i-do",
-          "title": "I have a new phone number, what do I do?"
-        },
-        {
-          "key": "q-how-do-i-log-out",
-          "title": "Log out of Telegram"
-        },
-        {
-          "key": "q-how-do-i-change-my-phone-number",
-          "title": "Change your phone number"
-        },
-        {
-          "key": "q-how-do-i-delete-my-account",
-          "title": "Delete your Telegram account"
-        },
-        {
-          "key": "q-how-does-account-self-destruction-work",
-          "title": "How does account self-destruction work?"
-        },
-        {
-          "key": "q-my-phone-was-stolen-what-do-i-do",
-          "title": "My phone was stolen. What do I do?"
-        }
-      ]
-    },
-    {
-      "title": "Bots",
-      "key": "bots",
-      "children": [
-        {
-          "key": "q-how-do-i-create-a-bot",
-          "title": "How do I create a bot?"
-        },
-        {
-          "key": "q-a-bot-is-sending-me-messages-how-do-i-make-it-stop",
-          "title": "How do I get rid of a bot?"
-        },
-        {
-          "key": "q-are-bots-safe",
-          "title": "Are bots safe?"
-        },
-        {
-          "key": "q-where-can-i-find-more-bots",
-          "title": "Where can I get more bots?"
-        }
-      ]
-    },
-    {
-      "title": "Deeper Questions",
-      "key": "deeper-questions",
-      "children": [
-        {
-          "key": "q-can-i-get-telegram-39s-server-side-code",
-          "title": "Can I get Telegram's server-side code?"
-        },
-        {
-          "key": "q-can-i-run-telegram-using-my-own-server",
-          "title": "Can I use my own server?"
-        },
-        {
-          "key": "q-can-i-use-the-telegram-api",
-          "title": "Can I use the Telegram API?"
-        },
-        {
-          "key": "q-do-you-have-a-privacy-policy",
-          "title": "Do you have a Privacy Policy?"
-        },
-        {
-          "key": "q-what-does-the-ios-privacy-sheet-mean",
-          "title": "What does the iOS privacy sheet mean?"
-        },
-        {
-          "key": "q-why-do-you-have-two-apps-in-the-mac-app-store",
-          "title": "Why do you have two apps in the Mac App Store?"
-        },
-        {
-          "key": "q-can-i-translate-telegram",
-          "title": "Can I translate Telegram?"
-        },
-        {
-          "key": "q-can-i-help",
-          "title": "Can I help?"
-        }
-      ]
-    },
-    {
-      "title": "Troubleshooting",
-      "key": "troubleshooting",
-      "children": [
-        {
-          "key": "login-and-sms",
-          "title": "SMS, login, register"
-        },
-        {
-          "key": "getting-a-code-via-a-phone-call",
-          "title": "Getting a login code via a phone call"
-        },
-        {
-          "key": "getting-a-code-via-telegram",
-          "title": "Getting codes via Telegram"
-        },
-        {
-          "key": "notification-problems",
-          "title": "Notification problems"
-        },
-        {
-          "key": "problems-with-contacts",
-          "title": "Problems with contacts"
-        },
-        {
-          "key": "deleting-contacts-on-android",
-          "title": "Deleting contacts on Android"
-        },
-        {
-          "key": "where-did-my-secret-chat-messages-go",
-          "title": "Secret Chats"
-        },
-        {
-          "key": "can-39t-send-messages-to-non-contacts",
-          "title": "Can't send messages to non contacts"
-        },
-        {
-          "key": "telegram-uses-the-camera-or-microphone-in-the-background",
-          "title": "Telegram uses the camera or microphone in the background"
-        }
-      ]
-    },
-    {
-      "title": "Advanced FAQ",
-      "key": "https://telegram-all.com/"
     }
   ]
 }

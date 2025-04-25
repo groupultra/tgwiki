@@ -1,4 +1,4 @@
-import { ArrowRight, CircleHelp, Rocket, Sparkles, Star } from "lucide-react";
+import { ArrowRight, CircleHelp, ExternalLink, Rocket, Sparkles, Star } from "lucide-react";
 import Link from "next/link";
 import { useTranslation } from "../i18n";
 import { fallbackLng, languages } from "../i18n/settings";
@@ -59,11 +59,11 @@ export default async function Page({
       </section>
 
       <section className="w-full py-20" id="quick_start">
-        <h2 className="customers_title">{t("quickTitle")}</h2>
+        <h2 className="flex items-center gap-2 justify-center"><b className="customers_title">{t("quickTitle")}</b></h2>
         <QuickBlock t={t} lng={lng} />
       </section>
       <section className="w-full py-20" id="Commonly_used_functions">
-        <h2 className="customers_title">{t("CommonlyTitle")}</h2>
+        <h2 className="flex items-center gap-2 justify-center"><b className="customers_title">{t("CommonlyTitle")}</b></h2>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 md:px-30 sm:px-10">
           {(t("function.content", { returnObjects: true }) as any)?.map(
             (val: any) => {
@@ -96,7 +96,7 @@ export default async function Page({
       </section>
 
       <section className="w-full py-20" id="faq">
-        <h2 className="customers_title">{t("FAQ")}</h2>
+        <h2 className="flex items-center gap-3 justify-center"><b className="customers_title">{t("FAQ")}</b><Link className="text-sm !text-blue-500 !underline flex items-center gap-1" target="_blank" href={'https://tgall.top/'+ lng}>({t("FAQ_description")}) <ExternalLink size={14} /></Link></h2>
         <FAQComponent lng={lng} />
       </section>
     </main>
